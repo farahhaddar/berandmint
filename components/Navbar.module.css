@@ -1,0 +1,77 @@
+.navbar {
+  font-family: "Avenir Regular", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  align-items: center;
+  font-size: 13px;
+}
+@media only screen and (max-width: 960px) {
+  .navbar {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+.navLinks {
+  display: flex;
+  font: normal normal medium 13px Avenir Regular;
+  gap: 50px;
+}
+
+/* a { */
+.navLinks a:after {
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  background: #00b180;
+  transition: 0.3s ease 0s;
+  width: 0;
+}
+.navLinks a:hover:after {
+  width: 100%;
+  left: 0;
+  color: #00b180;
+}
+@media only screen and (max-width: 960px) {
+  .navLinks {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .navLinks {
+    display: none;
+  }
+}
+
+.logo {
+}
+
+.navzcta {
+  padding: 10px 35px;
+  border: 2px solid #00b180;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease 0s;
+}
+.navzcta:hover {
+  background-color: #00b180;
+  transition: 0.3s ease 0s;
+}
+@media only screen and (max-width: 960px) {
+  .navzcta {
+    display: none;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .mobileNav {
+    display: none;
+  }
+}
+.mobileNav {
+}
