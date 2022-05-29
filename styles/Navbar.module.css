@@ -141,3 +141,6 @@
 .textItem:hover {
   color: #00B180;
 }
+.greyText:hover{
+  opacity: 1 !important;
+}
