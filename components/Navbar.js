@@ -1,7 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
-import styles from '../styles/Navbar.module.css'
+import styles from "../styles/Navbar.module.css";
 import { useState } from "react";
+import { useRouter } from "next/router";
+import { NavLink } from "./NavLink";
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
@@ -15,12 +17,17 @@ const Navbar = () => {
   };
   return (
     <nav>
-      <div className='container'>
+      <div className="container">
         <div className={styles.navbar}>
           <div className={styles.logo}>
             <Link href="/">
               <a>
-                <Image src="/images/logo.svg" alt="logo" width={163} height={48} />
+                <Image
+                  src="/images/logo.svg"
+                  alt="logo"
+                  width={163}
+                  height={48}
+                />
               </a>
             </Link>
           </div>
@@ -60,43 +67,49 @@ const Navbar = () => {
                 />
               </div>
               <div className={styles.sideNav}>
-                <Link href="/work">
-                  <a>WORK</a>
-                </Link>
-                <Link href="/work">
-                  <a className={styles.greyText}>OFFERING</a>
-                </Link>
-                <Link href="/work">
+                <NavLink onClick={toggleNav} href="/work">
+                  <a className={styles.greyText}>WORK</a>
+                </NavLink>
+                <NavLink onClick={toggleNav} href="/work">
+                  <a className={styles.greyText}>OFFERING1</a>
+                </NavLink>
+                <NavLink onClick={toggleNav} href="/work">
                   <a className={styles.greyText}>CLIENT</a>
-                </Link>
-                <Link href="/work">
+                </NavLink>
+                <NavLink onClick={toggleNav} href="/work">
                   <a className={styles.greyText}>LETS TALK</a>
-                </Link>
+                </NavLink>
               </div>
               <div className={styles.socialMedia}>
-                <a href="https://www.facebook.com/brandmintdesign" target='_blank'>
-                <Image
-                  src="/images/facebook.svg"
-                  alt="logo"
-                  width={28}
-                  height={40}
-                />
+                <a
+                  href="https://www.facebook.com/brandmintdesign"
+                  target="_blank"
+                >
+                  <Image
+                    src="/images/facebook.svg"
+                    alt="logo"
+                    width={28}
+                    height={40}
+                  />
                 </a>
-                <a href="https://www.instagram.com/brandmint/" target='_blank'>
-                <Image
-                  src="/images/instagram.svg"
-                  alt="logo"
-                  width={64}
-                  height={24}
-                />
+                <a href="https://www.instagram.com/brandmint/" target="_blank">
+                  <Image
+                    src="/images/instagram.svg"
+                    alt="logo"
+                    width={28}
+                    height={40}
+                  />
                 </a>
-                <a href="https://www.linkedin.com/company/brandmint-design-agency/about/" target='_blank'>
-                <Image
-                  src="/images/linkedIn.svg"
-                  alt="logo"
-                  width={64}
-                  height={24}
-                />
+                <a
+                  href="https://www.linkedin.com/company/brandmint-design-agency/about/"
+                  target="_blank"
+                >
+                  <Image
+                    src="/images/linkedIn.svg"
+                    alt="logo"
+                    width={28}
+                    height={40}
+                  />
                 </a>
               </div>
             </div>
