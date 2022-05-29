@@ -38,3 +38,20 @@ a {
   font-family: "Avenir Regular";
   src: url("/fonts/Avenir/Avenir Regular/Avenir Regular.ttf");
 }
+
+/* .container{
+} */
+
+footer{
+    background-color: black;
+    padding: 5% 10% 2% 10%;
+}
+@media screen and (min-width: 900px) {
+
+  /* for shrinking the page on zoom  out */
+  .container{
+          max-width: 1420px !important;
+          margin: auto;
+          width: 100%;
+     }
+}
