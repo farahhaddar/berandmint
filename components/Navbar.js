@@ -88,16 +88,16 @@ const Navbar = () => {
                   <Image
                     src="/images/facebook.svg"
                     alt="logo"
-                    width={28}
-                    height={40}
+                    width={15}
+                    height={30}
                   />
                 </a>
                 <a href="https://www.instagram.com/brandmint/" target="_blank">
                   <Image
                     src="/images/instagram.svg"
                     alt="logo"
-                    width={28}
-                    height={40}
+                    width={29}
+                    height={29}
                   />
                 </a>
                 <a
@@ -107,8 +107,8 @@ const Navbar = () => {
                   <Image
                     src="/images/linkedIn.svg"
                     alt="logo"
-                    width={28}
-                    height={40}
+                    width={29}
+                    height={29}
                   />
                 </a>
               </div>
