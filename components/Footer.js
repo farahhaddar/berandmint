@@ -56,8 +56,10 @@ const Footer = () => {
                               <div className={`${styles.colTitle} ${styles.hide}`}>
                                    Links
                               </div>
+                              <div className={styles.linkwarp}>
                               <Link href='/'><a className={styles.col2link}>Home</a></Link>
                               <Link href='/offering'><a className={`${styles.col2link} ${styles.col2linkPadd}`}> What we do</a></Link>
+                              </div>
                               <Link href='/clients'><a className={`${styles.col2link} ${styles.col2linkPadd}`}>Our Clients</a></Link>
                          </div>
                          <div className={styles.col3}>
@@ -104,7 +106,13 @@ const Footer = () => {
                          </div>
                     </div>
                     <div className={styles.copyrights}>
-                         Copyright © 2022 Brandmint s.a.l - All Right Reserved.
+                         <div>
+                              Copyright © 2022 Brandmint s.a.l -
+                         </div>
+                         <div>
+                              All Right Reserved
+                         </div>
+                         
                     </div>
                </div>
 
