@@ -34,23 +34,14 @@ const Navbar = () => {
               </a>
             </Link>
           </div>
-          {/* links */}
           <div className={styles.navLinks}>
-            <Link href="/work">
-              <a>WORK</a>
-            </Link>
-            <Link href="/offering">
-              <a> Offering</a>
-            </Link>
-            <Link href="/clients">
-              <a>Clients</a>
-            </Link>
+            <NavLink href="/work">Work</NavLink>
+            <NavLink href="/offering">Offering</NavLink>
+            <NavLink href="/clients">Clients</NavLink>
           </div>
           {/* btn */}
           <div className={styles.navzcta}>
-            <Link href="">
-              <a>Lets Talk</a>
-            </Link>
+            <NavLink href="">Lets Talk</NavLink>
           </div>
           {/* toggle btn*/}
           <div className={styles.navToggle} onClick={toggleNav}>
@@ -75,21 +66,41 @@ const Navbar = () => {
                 />
               </div>
               <div className={styles.sideNav}>
-                <NavLink onClick={toggleNav} href="/">
-                  <a className={styles.greyText}>HOME</a>
+                <NavLink
+                  className={styles.greyText}
+                  onClick={toggleNav}
+                  href="/"
+                >
+                  HOME
                 </NavLink>
 
-                <NavLink onClick={toggleNav} href="/work">
-                  <a className={styles.greyText}>WORK</a>
+                <NavLink
+                  className={styles.greyText}
+                  onClick={toggleNav}
+                  href="/work"
+                >
+                  WORK
                 </NavLink>
-                <NavLink onClick={toggleNav} href="/offering">
-                  <a className={styles.greyText}>OFFERING</a>
+                <NavLink
+                  className={styles.greyText}
+                  onClick={toggleNav}
+                  href="/offering"
+                >
+                  OFFERING1
                 </NavLink>
-                <NavLink onClick={toggleNav} href="/clients">
-                  <a className={styles.greyText}>CLIENT</a>
+                <NavLink
+                  className={styles.greyText}
+                  onClick={toggleNav}
+                  href="/clients"
+                >
+                  <a>CLIENT</a>
                 </NavLink>
-                <NavLink onClick={toggleNav} href="/#talk">
-                  <a className={styles.greyText}>LETS TALK</a>
+                <NavLink
+                  className={styles.greyText}
+                  onClick={toggleNav}
+                  href="/#contact"
+                >
+                  <a>LETS TALK</a>
                 </NavLink>
               </div>
               <div className={styles.socialMedia}>
@@ -157,3 +168,10 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
+
+
+
+
