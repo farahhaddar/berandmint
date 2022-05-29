@@ -36,7 +36,6 @@ const Navbar = () => {
             return !prevState;
           });
         }}
-        className={classes.mobileNav}
       >
         <Image
           src="/images/sidenav-toggle.svg"
@@ -45,9 +44,11 @@ const Navbar = () => {
           height={14}
         />
       </div>
-      <div
-        style={{ position: "fixed", backgroundColor: "white", width: "100%" }}
-      ></div>
+      {showNav && (
+        <div className={classes.mobileNav}>
+          <div style={{ color: "#707070" }}>close</div>
+        </div>
+      )}
     </nav>
   );
 };
