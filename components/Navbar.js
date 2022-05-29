@@ -5,6 +5,14 @@ import { useState } from "react";
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
+  const toggleNav = () => {
+    if (showNav) document.body.style.overflow = "auto";
+    else document.body.style.overflow = "hidden";
+
+    setShowNav((prevState) => {
+      return !prevState;
+    });
+  };
   return (
     <nav className={classes.navbar}>
       <div className={classes.logo}>
@@ -30,13 +38,7 @@ const Navbar = () => {
           <a>Lets Talk</a>
         </Link>
       </div>
-      <div
-        onClick={() => {
-          setShowNav((prevState) => {
-            return !prevState;
-          });
-        }}
-      >
+      <div className={classes.navToggle} onClick={toggleNav}>
         <Image
           src="/images/sidenav-toggle.svg"
           alt="logo"
@@ -46,7 +48,41 @@ const Navbar = () => {
       </div>
       {showNav && (
         <div className={classes.mobileNav}>
-          <div style={{ color: "#707070" }}>close</div>
+          <div className={classes.closeContainer}>
+            <Image
+              onClick={toggleNav}
+              src="/images/close.svg"
+              alt="logo"
+              width={64}
+              height={24}
+            />
+          </div>
+          <div className={classes.sideNav}>
+            <div>WORK</div>
+            <div className={classes.greyText}>OFFERING</div>
+            <div className={classes.greyText}>CLIENT</div>
+            <div className={classes.greyText}>LETS TALK</div>
+          </div>
+          <div className={classes.socialMedia}>
+            <Image
+              src="/images/facebook.svg"
+              alt="logo"
+              width={28}
+              height={40}
+            />
+            <Image
+              src="/images/instagram.svg"
+              alt="logo"
+              width={64}
+              height={24}
+            />
+            <Image
+              src="/images/linkedIn.svg"
+              alt="logo"
+              width={64}
+              height={24}
+            />
+          </div>
         </div>
       )}
     </nav>
