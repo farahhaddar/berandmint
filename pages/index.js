@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Brandmint</title>
+        <title>Brandmint | Home </title>
         <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

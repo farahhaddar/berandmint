@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import classes from "./Navbar.module.css";
+import styles from '../styles/Navbar.module.css'
 import { useState } from "react";
 
 const Navbar = () => {
@@ -14,77 +14,95 @@ const Navbar = () => {
     });
   };
   return (
-    <nav className={classes.navbar}>
-      <div className={classes.logo}>
-        <Link href="/">
-          <a>
-            <Image src="/images/logo.svg" alt="logo" width={163} height={48} />
-          </a>
-        </Link>
-      </div>
-      <div class={classes.navLinks}>
-        <Link href="/work">
-          <a>Work</a>
-        </Link>
-        <Link href="/offering">
-          <a> Offering</a>
-        </Link>
-        <Link href="/clients">
-          <a>Clients</a>
-        </Link>
-      </div>
-      <div className={classes.navzcta}>
-        <Link href="">
-          <a>Lets Talk</a>
-        </Link>
-      </div>
-      <div className={classes.navToggle} onClick={toggleNav}>
-        <Image
-          src="/images/sidenav-toggle.svg"
-          alt="logo"
-          width={16}
-          height={14}
-        />
-      </div>
-      {showNav && (
-        <div className={classes.mobileNav}>
-          <div className={classes.closeContainer}>
+    <nav>
+      <div className='container'>
+        <div className={styles.navbar}>
+          <div className={styles.logo}>
+            <Link href="/">
+              <a>
+                <Image src="/images/logo.svg" alt="logo" width={163} height={48} />
+              </a>
+            </Link>
+          </div>
+          <div class={styles.navLinks}>
+            <Link href="/work">
+              <a>Work</a>
+            </Link>
+            <Link href="/offering">
+              <a> Offering</a>
+            </Link>
+            <Link href="/clients">
+              <a>Clients</a>
+            </Link>
+          </div>
+          <div className={styles.navzcta}>
+            <Link href="">
+              <a>Lets Talk</a>
+            </Link>
+          </div>
+          <div className={styles.navToggle} onClick={toggleNav}>
             <Image
-              onClick={toggleNav}
-              src="/images/close.svg"
+              src="/images/sidenav-toggle.svg"
               alt="logo"
-              width={64}
-              height={24}
+              width={16}
+              height={14}
             />
           </div>
-          <div className={classes.sideNav}>
-            <div>WORK</div>
-            <div className={classes.greyText}>OFFERING</div>
-            <div className={classes.greyText}>CLIENT</div>
-            <div className={classes.greyText}>LETS TALK</div>
-          </div>
-          <div className={classes.socialMedia}>
-            <Image
-              src="/images/facebook.svg"
-              alt="logo"
-              width={28}
-              height={40}
-            />
-            <Image
-              src="/images/instagram.svg"
-              alt="logo"
-              width={64}
-              height={24}
-            />
-            <Image
-              src="/images/linkedIn.svg"
-              alt="logo"
-              width={64}
-              height={24}
-            />
-          </div>
+          {showNav && (
+            <div className={styles.mobileNav}>
+              <div className={styles.closeContainer}>
+                <Image
+                  onClick={toggleNav}
+                  src="/images/close.svg"
+                  alt="logo"
+                  width={64}
+                  height={24}
+                />
+              </div>
+              <div className={styles.sideNav}>
+                <Link href="/work">
+                  <a>WORK</a>
+                </Link>
+                <Link href="/work">
+                  <a className={styles.greyText}>OFFERING</a>
+                </Link>
+                <Link href="/work">
+                  <a className={styles.greyText}>CLIENT</a>
+                </Link>
+                <Link href="/work">
+                  <a className={styles.greyText}>LETS TALK</a>
+                </Link>
+              </div>
+              <div className={styles.socialMedia}>
+                <a href="https://www.facebook.com/brandmintdesign" target='_blank'>
+                <Image
+                  src="/images/facebook.svg"
+                  alt="logo"
+                  width={28}
+                  height={40}
+                />
+                </a>
+                <a href="https://www.instagram.com/brandmint/" target='_blank'>
+                <Image
+                  src="/images/instagram.svg"
+                  alt="logo"
+                  width={64}
+                  height={24}
+                />
+                </a>
+                <a href="https://www.linkedin.com/company/brandmint-design-agency/about/" target='_blank'>
+                <Image
+                  src="/images/linkedIn.svg"
+                  alt="logo"
+                  width={64}
+                  height={24}
+                />
+                </a>
+              </div>
+            </div>
+          )}
         </div>
-      )}
+      </div>
     </nav>
   );
 };

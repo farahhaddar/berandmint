@@ -1,24 +1,3 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: "Avenir Heavy", sans-serif;
-  position: relative;
-}
-@media only screen and (min-width: 960px) {
-  body {
-    overflow: auto !important;
-  }
-}
-
-* {
-  box-sizing: border-box;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
 @font-face {
   font-family: "Avenir Heavy";
   src: url("/fonts/Avenir/Avenir Heavy/Avenir Heavy.ttf");
@@ -28,36 +7,40 @@ a {
   font-family: "Avenir Black";
   src: url("/fonts/Avenir/Avenir Black/Avenir Black.ttf");
 }
+
 @font-face {
   font-family: "Avenir Book";
   src: url("/fonts/Avenir/Avenir Book/Avenir Book.ttf");
 }
+
 @font-face {
   font-family: "Avenir Heavy";
   src: url("/fonts/Avenir/Avenir Heavy/Avenir Heavy.ttf");
 }
+
 @font-face {
   font-family: "Avenir Light";
   src: url("/fonts/Avenir/Avenir Light/Avenir Light.ttf");
 }
+
 @font-face {
   font-family: "Avenir Regular";
   src: url("/fonts/Avenir/Avenir Regular/Avenir Regular.ttf");
 }
 
-/* .container{
-} */
-
-footer{
-    background-color: black;
-    padding: 5% 10% 2% 10%;
+html,
+body {padding: 0;margin: 0;font-family: "Avenir Heavy", sans-serif;position: relative;}
+@media only screen and (min-width: 960px) {
+  body {overflow: auto !important;}
 }
+* {box-sizing: border-box;}
+a {color: inherit;text-decoration: none;}
+footer{ background-color: black; padding: 5% 10% 2% 10%;}
+nav{background-color: black;padding: 1% 10% ;}
 @media screen and (min-width: 900px) {
-
   /* for shrinking the page on zoom  out */
-  .container{
-          max-width: 1420px !important;
-          margin: auto;
-          width: 100%;
-     }
+  .container{max-width: 1420px !important;margin: auto;width: 100%;}
+}
+@media only screen and (max-width: 960px) {
+footer,nav{padding: 2% 5%;}
 }
