@@ -30,7 +30,17 @@
   font-family: "Avenir Regular";
   src: url("/fonts/Avenir/Avenir Regular/Avenir Regular.ttf");
 }
+* {margin: 0;box-sizing: border-box;text-decoration: none;-webkit-touch-callout: none;-webkit-tap-highlight-color: transparent;-webkit-appearance: none;padding: 0;list-style: none;scroll-behavior: smooth;}
+*:focus {outline: none;box-shadow: none;}
 
+
+main {
+  min-height: 65vh !important;
+}
+
+p {
+  line-height: 1.6;
+}
 html,
 body {
   padding: 0;
@@ -43,9 +53,7 @@ body {
     overflow: auto !important;
   }
 }
-* {
-  box-sizing: border-box;
-}
+
 a {
   color: inherit;
   text-decoration: none;
