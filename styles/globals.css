@@ -2,8 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Avenir Heavy", sans-serif;
 }
 
 * {
@@ -14,5 +13,28 @@ a {
   color: inherit;
   text-decoration: none;
 }
+@font-face {
+  font-family: "Avenir Heavy";
+  src: url("/fonts/Avenir/Avenir Heavy/Avenir Heavy.ttf");
+}
 
-
+@font-face {
+  font-family: "Avenir Black";
+  src: url("/fonts/Avenir/Avenir Black/Avenir Black.ttf");
+}
+@font-face {
+  font-family: "Avenir Book";
+  src: url("/fonts/Avenir/Avenir Book/Avenir Book.ttf");
+}
+@font-face {
+  font-family: "Avenir Heavy";
+  src: url("/fonts/Avenir/Avenir Heavy/Avenir Heavy.ttf");
+}
+@font-face {
+  font-family: "Avenir Light";
+  src: url("/fonts/Avenir/Avenir Light/Avenir Light.ttf");
+}
+@font-face {
+  font-family: "Avenir Regular";
+  src: url("/fonts/Avenir/Avenir Regular/Avenir Regular.ttf");
+}
