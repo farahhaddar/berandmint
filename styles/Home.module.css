@@ -60,7 +60,8 @@
 /* Videos */
 
 .VideoSection{ display: flex; justify-content: space-between; gap:5em 5em }
-.Videowarp{width: 50%;min-height: 340px;display: block;position: relative }
+.Videowarp{width: 50%;height: 320px;display: block;position: relative }
+.Videowarp img{width: 100%;height: 320px ; display: block;}
 .VideoText{width: 50%;}
 .VideoTextTitle{color: #fff;font-size: 48px;font-weight: 900; margin-bottom: 15px;font-family: "Avenir Regular"; }
 .VideoDets{ font-size: 16px; color: #fff;font-family: "Avenir Book"; font-weight: 500;}
@@ -86,8 +87,8 @@
  
 
 .VideoSection{ display: flex; justify-content: space-between; gap:5em 5em ; flex-direction: column;}
-.Videowarp{width: 50%;order: 2;height: 350px;}
-.Videowarp{width: 100%;height: 350px;}
+.Videowarp{width: 100%;order: 2;height: 350px;}
+.Videowarp img{width: 100%;height: 100%; display: block;}
 
 .VideoText{width: 100%; order: 1;}
 .VideoTextTitle{color: #fff;font-size: 48px;font-weight: 900; margin-bottom: 15px;font-family: "Avenir Regular"; }

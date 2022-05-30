@@ -2,24 +2,16 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "../../../styles/Home.module.css";
 import { NavLink } from "../../NavLink";
-import React from 'react'
-import ReactPlayer from 'react-player/lazy'
 
 
 
 const Video = () => {
      return (
-          <div className='warper blackbg'>
+          <div className='warper blackbg blackWhitebg'>
                <div className="container">
                     <div className={styles.VideoSection}>
                          <div className={styles.Videowarp}>
-
-                           
-
- />
-                              
-
-                              {/* <img src="/images/bart.png" alt="" /> */}
+                              <img src="/images/bart.png" alt="img" />
                          </div>
 
                          <div className={styles.VideoText}>
