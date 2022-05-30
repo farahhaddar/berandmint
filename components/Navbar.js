@@ -87,7 +87,7 @@ const Navbar = () => {
                   onClick={toggleNav}
                   href="/offering"
                 >
-                  OFFERING1
+                  OFFERING
                 </NavLink>
                 <NavLink
                   className={styles.greyText}

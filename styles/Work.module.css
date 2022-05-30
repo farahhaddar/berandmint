@@ -63,9 +63,7 @@
 .projectsSection{ display: block;margin-bottom: 20px;}
 
 
-
-
-.projectcta {padding: 10px 20px; font-size: 15px;}
+.projectcta {padding: 10px 20px; font-size: 14px;white-space: nowrap;}
  
 
 }
