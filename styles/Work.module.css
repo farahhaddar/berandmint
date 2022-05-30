@@ -1,12 +1,8 @@
-/* hero  */
-.heroSection{color:#fff;font-family: "Avenir Regular";font-size: 48px;font-weight: 900px;width:62%;}
-.colortxt{color:#00B180;}
-.herocta {padding: 10px 35px;border: 2px solid #00b180;border-radius: 10px;cursor: pointer;transition: 0.3s ease 0s;width: fit-content;font-size: 18px;margin-top: 20px;}
-.herocta:hover {background-color: #00b180;transition: 0.3s ease 0s;}
-/* end hero */
-
 /* projects */
-.projectsSection{display: grid;grid-template-columns: repeat(3,2fr); gap: 1em 1em;margin-bottom: 20px;}
+.catDesc{font-size: 28px;color:#000;font-family: "Avenir Regular";width: 60%;margin-bottom: 20px;}
+.catName{color:#00b180;font-weight: 900;}
+
+/* defult card */
 .projectCard {width: 100%; height: 353px;overflow: hidden;position: relative;cursor: pointer;}
 .projectCard img{ width: 100%;height: 100% !important;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all .5s;}
 .projectCard:hover img,.projectCard:focus img{-ms-transform: scale(1.2);-moz-transform: scale(1.2);-webkit-transform: scale(1.2);-o-transform: scale(1.2);transform: scale(1.2);}
@@ -14,25 +10,46 @@
 .projectCard:focus .projectOverly{display: block;}
 .projectOverly{height: 100%;width: 100%;position: absolute;top: 0;left: 0;background-color: #000000B2;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all .5s;display: none;}
 .projectTitle{font-family: "Avenir Regular";color:#00b180;position: absolute;bottom:20px;left: 20px;font-size: 20px;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all .5s}
+/* defult card */
+
+/* env */
+.envrow1{display: grid;grid-template-columns: repeat(3, 2fr);gap: 1em 1em;margin-bottom: 20px;}
+.envrow2{display: grid;grid-template-columns: repeat(2, 2fr);gap: 1em 1em;margin-bottom: 20px;}
+.envrow3 {display: grid;grid-template-columns: repeat(3, 2fr);gap: 1em 1em;}
+.envrow2 .projectCard{ height: 553px;}
+/* env */
+
+
+
+
+
+
+/* seeall arow */
+.seeAll{ color: #00b180; display: flex; justify-content: flex-end;}
+.arrow{ font-size: 1.5em;}
+
+/* back to home */
 .projectcta {padding: 10px 35px;border: 2px solid #00b180;background-color: #00b180;border-radius: 10px;cursor: pointer;transition: 0.3s ease 0s;width: fit-content;font-size: 18px; margin: auto; color:#fff; margin-top: 5%;}
 .projectcta:hover {background-color: transparent;color:#000;transition: 0.3s ease 0s;}
-/* end projects */
 
 @media only screen and (max-width: 960px) {
-     /* hero  */
-     .heroSection {font-size: 25px;width: 95%;}
-     /* end hero */
+.catDesc{font-size: 25px;width: 100%;}
 
-/* projects */
-.projectsSection{grid-template-columns: repeat(2,2fr); gap: 1em 1em;margin-bottom: 20px;}
-/* end projects */
+/* envgrid */
+.envrow2 .projectCard{ height: 300px;}
+.projectCard {height: 300px;}
+
+
 }
 
 @media only screen and (max-width: 600px) {
  /*projects */
-.projectsSection{ display: block;margin-bottom: 20px;}
-.projectCard{margin-bottom: 20px;}
-.projectCard {width: 100%; height: 330px; margin-bottom: 20px;}
+
+.envrow1,.envrow2,.envrow3{ display: block;margin-bottom: 20px;}
+.envrow2 .projectCard,.projectCard {width: 100%; height: 330px; margin-bottom: 20px;}
+
+
 .projectcta {padding: 10px 20px; font-size: 15px;}
- /*end projects */
+ 
+/*end projects */
 }

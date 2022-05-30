@@ -1,14 +1,3 @@
-.active {
-  opacity: 1 !important;
-}
-@media only screen and (min-width: 960px) {
-  a.active:after {
-    width: 100%;
-    left: 0;
-    color: #00b180;
-  }
-}
-
 @font-face {
   font-family: "Avenir Heavy";
   src: url("/fonts/Avenir/Avenir Heavy/Avenir Heavy.ttf");
@@ -54,18 +43,22 @@ nav {background-color: black;padding: 1% 10%;}
 
 .warper{padding: 5% 10%}
 .blackbg{background-color: black;}
+.whitebg {background-color: #fff;}
+.greybg {background-color: #EDEDED;}
 
+/* for shrinking the page on zoom  out */
 @media screen and (min-width: 900px) {
-  /* for shrinking the page on zoom  out */
-  .container {
-    max-width: 1420px !important;
-    margin: auto;
-    width: 100%;
-  }
+  .container {max-width: 1420px !important;margin: auto;width: 100%;}
 }
+/* responsive */
 @media only screen and (max-width: 960px) {
-  footer,
-  nav {
-    padding: 2% 5%;
-  }
+  .warper,footer,nav {padding: 25px 30px;}
+}
+
+/* navbar active */
+.active {
+  opacity: 1 !important;
+}
+@media only screen and (min-width: 960px) {
+  a.active:after {width: 100%;left: 0;color: #00b180;}
 }

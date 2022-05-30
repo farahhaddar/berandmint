@@ -41,7 +41,7 @@ const Navbar = () => {
           </div>
           {/* btn */}
           <div className={styles.navzcta}>
-            <NavLink href="">Lets Talk</NavLink>
+            <NavLink href="/#contact">Lets Talk</NavLink>
           </div>
           {/* toggle btn*/}
           <div className={styles.navToggle} onClick={toggleNav}>
