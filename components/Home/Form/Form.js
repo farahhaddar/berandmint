@@ -17,7 +17,7 @@ const Form = () => {
                          </div>
 
                          {/* form */}
-                         <form className={styles.formInput} action="/send-data-here" method="post">
+                         <form className={styles.formInput}>
                               <div className={styles.formrow}>
                                    <input type="text" id="name" name="name" placeholder="Full name*" required/>
                                    <input type="email" id="email" name="email" placeholder="Your e-mail address*" required/>

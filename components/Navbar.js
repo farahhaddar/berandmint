@@ -107,7 +107,7 @@ const Navbar = () => {
               <div className={styles.socialMedia}>
                 <a
                   href="https://www.facebook.com/brandmintdesign"
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                 >
                   <Image
                     src="/images/facebook.svg"
@@ -116,7 +116,7 @@ const Navbar = () => {
                     height={40}
                   />
                 </a>
-                <a href="https://www.instagram.com/brandmint/" target="_blank">
+                <a href="https://www.instagram.com/brandmint/" target="_blank" rel="noopener noreferrer">
                   <Image
                     src="/images/instagram.svg"
                     alt="logo"
@@ -126,7 +126,7 @@ const Navbar = () => {
                 </a>
                 <a
                   href="https://www.linkedin.com/company/brandmint-design-agency/about/"
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                 >
                   <Image
                     src="/images/linkedIn.svg"

@@ -77,7 +77,7 @@ const Footer = () => {
                               </div>
 
                               <div className={styles.socialMedia}>
-                                   <a href="https://www.facebook.com/brandmintdesign" target='_blank'>
+                                   <a href="https://www.facebook.com/brandmintdesign" rel="noopener noreferrer" target='_blank'>
                                         <Image
                                              src="/images/facebook.svg"
                                              alt="facebook"
@@ -85,7 +85,7 @@ const Footer = () => {
                                              height={30}
                                         />
                                    </a>
-                                   <a href="https://www.instagram.com/brandmint/" target='_blank'>
+                                   <a href="https://www.instagram.com/brandmint/" target='_blank' rel="noopener noreferrer">
                                         <Image
                                              src="/images/instagram.svg"
                                              alt="instagram"
@@ -94,7 +94,7 @@ const Footer = () => {
                                         />
                                    
                                    </a>
-                                   <a href="https://www.linkedin.com/company/brandmint-design-agency/about/" target='_blank'>
+                                   <a href="https://www.linkedin.com/company/brandmint-design-agency/about/" target='_blank' rel="noopener noreferrer">
                                         <Image
                                              src="/images/linkedIn.svg"
                                              alt="linkedin"
