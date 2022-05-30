@@ -50,14 +50,14 @@ const OtherCat = () => {
                          {/* see all */}
                          <div className={styles.seeAll}>
                               <NavLink href="/work/category/2">
-                                   See all <span className={styles.arrow}>&#8594;</span>
+                                  Explore Moere <span className={styles.arrow}>&#8594;</span>
                               </NavLink>
                          </div>
 
                          {/* btn back Home */}
                          <div className={styles.projectcta}>
                               <NavLink href="/">
-                                   BACK HOME
+                                   Back Home
                               </NavLink>
                          </div>
 

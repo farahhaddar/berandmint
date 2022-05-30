@@ -103,7 +103,7 @@ const Category = () => {
                          {/* btn */}
                          <div className={styles.projectcta}>
                               <NavLink href='/work/category/1' >
-                                   LOAD MORE
+                                   Load More
                               </NavLink>
                          </div>
                     </div>

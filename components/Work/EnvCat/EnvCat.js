@@ -92,7 +92,7 @@ const EnvCat = () => {
                          {/* see all */}
                          <div className={styles.seeAll}>
                               <NavLink href="/work/category/1">
-                                   See all <span className={styles.arrow}>&#8594;</span> 
+                                   Explore More <span className={styles.arrow}>{`>`}</span> 
                               </NavLink>
                          </div>
 

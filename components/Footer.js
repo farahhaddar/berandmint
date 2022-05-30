@@ -110,7 +110,7 @@ const Footer = () => {
                               Copyright © 2022 Brandmint s.a.l -
                          </div>
                          <div>
-                              All Right Reserved
+                               All Right Reserved
                          </div>
                          
                     </div>

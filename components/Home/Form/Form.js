@@ -25,7 +25,7 @@ const Form = () => {
                               <input type="text" name="subject" id="subject" placeholder="Subject*" required/>
                               <textarea name="message" id="message" cols="30" rows="10" placeholder="Drop us a message here…" required></textarea>
                               <div className={styles.formbtn}>
-                              <button type="submit">SEND</button>
+                              <button type="submit">Send</button>
                               </div>
                          </form>
 

@@ -99,7 +99,7 @@ const Hero = () => {
                     {/* btn */}
                     <div className={styles.projectcta}>
                          <NavLink href="/work">
-                              VIEW MORE PROJECTS
+                              View More projects
                          </NavLink>
                     </div>
                </div>

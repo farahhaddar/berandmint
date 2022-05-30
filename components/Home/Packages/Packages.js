@@ -27,7 +27,7 @@ const Packages = () => {
                                    {/* btn */}
                                    <div className={styles.packagecta2}>
                                         <NavLink href="/offering">
-                                             READ MORE
+                                             Read More
                                         </NavLink>
                                    </div>
                               </div>
@@ -44,7 +44,7 @@ const Packages = () => {
                                    {/* btn */}
                                    <div className={styles.packagecta}>
                                         <NavLink href="/offering">
-                                             READ MORE
+                                             Read More
                                         </NavLink>
                                    </div>
                               </div>

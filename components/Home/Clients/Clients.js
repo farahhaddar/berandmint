@@ -36,7 +36,7 @@ const Packages = () => {
                          {/* btn */}
                          <div className={styles.packagecta}>
                               <NavLink href="/clients">
-                                   VIEW ALL OUR CLIENTS
+                                   View All Our Clinets
                               </NavLink>
                          </div>
 

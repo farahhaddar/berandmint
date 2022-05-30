@@ -11,7 +11,8 @@
 /* projects */
 .projectsSection{display: grid;grid-template-columns: repeat(3,2fr); gap: 1em 1em;margin-bottom: 20px;}
 .projectCard {width: 100%; height: 353px;overflow: hidden;position: relative;cursor: pointer;}
-.projectCard img{ width: 100%;height: 100% !important;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all .5s;}
+.projectCard img{ width: 100%;height: 100% !important;-webkit-transition: all .8s;-moz-transition: all .8s;-o-transition: all .8s;transition: all .8s;object-position: center;
+     object-fit: cover;}
 .projectCard:hover img,.projectCard:focus img{-ms-transform: scale(1.2);-moz-transform: scale(1.2);-webkit-transform: scale(1.2);-o-transform: scale(1.2);transform: scale(1.2);}
 .projectCard:hover .projectOverly,
 .projectCard:focus .projectOverly{display: block;}
@@ -23,11 +24,10 @@
 /* ceo */
 .ceoSection{ display: flex; justify-content: space-between; gap:5em 5em }
 .ceoImage{ width: 50%;}
-.ceoImage img{ min-height: 475px; max-height: 100%; display: block;}
-.ceoText{width: 50%;font-family: "Avenir Regular";}
+.ceoImage img{ min-height: 475px; max-height: 100%; display: block;object-position: center;object-fit: cover;}
+.ceoText{width: 50%;font-family: "Avenir Regular"; height: 100%;}
 .ceoTextTitle{color: #00B180;font-size: 48px;font-weight: 900; margin-bottom: 15px; }
-.ceoDets{ font-size: 16px;}
-.ceoDets p{ margin-bottom: 10px;}
+.ceoDets{ font-size: 16px; display: flex; flex-direction: column; justify-content: space-evenly; min-height: 475px; }
 .ceoDets p:first-child{font-weight: 600;}
 
 
@@ -61,7 +61,8 @@
 
 .VideoSection{ display: flex; justify-content: space-between; gap:5em 5em }
 .Videowarp{width: 50%;height: 320px;display: block;position: relative }
-.Videowarp img{width: 100%;height: 320px ; display: block;}
+.Videowarp img{width: 100%;height: 320px ; display: block; object-position: center;
+     object-fit: cover;}
 .VideoText{width: 50%;}
 .VideoTextTitle{color: #fff;font-size: 48px;font-weight: 900; margin-bottom: 15px;font-family: "Avenir Regular"; }
 .VideoDets{ font-size: 16px; color: #fff;font-family: "Avenir Book"; font-weight: 500;}
@@ -72,11 +73,12 @@
  .heroSection {font-size: 25px;width: 95%;}
  .projectsSection{grid-template-columns: repeat(2,2fr); gap: 1em 1em;margin-bottom: 20px;}
   .ceoSection{ display: flex; justify-content: space-between; flex-direction: column; gap:unset }
-  .ceoImage{ width: 100%;order:2; display: flex; justify-content: center; margin-top: 20px;}
-  .ceoImage img{ min-height: unset; max-height: 100%; display: block; width: 300px; height: 300px;}
+  .ceoImage{ width: 100%;order:2; display: flex; justify-content: center; margin: 20px 0;}
+  .ceoImage img{ min-height: unset; max-height: 100%; display: block; width: 350px; height: 350px;}
   .ceoText{width: 100%; order:1}
   .ceoTextTitle{font-size: 28px;}
- .ceoDets{ font-size: 15px;}
+ .ceoDets {font-size: 16px;display: block; min-height: unset;}
+ .ceoDets p{ margin-bottom: 5%;}
  .sectionTitle {font-size: 28px;}
  .formrow{ display: block;}
 

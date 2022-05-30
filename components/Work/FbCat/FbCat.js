@@ -84,7 +84,7 @@ const FbCat = () => {
                          {/* see all */}
                          <div className={styles.seeAll}>
                               <NavLink href="/work/category/2">
-                                   See all <span className={styles.arrow}>&#8594;</span>
+                                   Explore More <span className={styles.arrow}>&#8594;</span>
                               </NavLink>
                          </div>
 

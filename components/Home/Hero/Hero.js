@@ -15,7 +15,7 @@ const Hero = () => {
           {/* btn */}
           <div className={styles.herocta}>
             <NavLink href="/work">
-              READ MORE
+              Read More
             </NavLink>
           </div>
         </div>
