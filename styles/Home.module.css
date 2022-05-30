@@ -101,7 +101,7 @@
 .projectsSection{ display: block;margin-bottom: 20px;}
 .projectCard{margin-bottom: 20px;}
 .projectCard {width: 100%; height: 330px; margin-bottom: 20px;}
-.projectcta {padding: 10px 20px; font-size: 15px;}
+.projectcta {padding: 10px 20px; font-size: 15px; white-space: nowrap;}
 .clinetsCards {gap: 2em;}
 
 
