@@ -41,14 +41,31 @@ a {color: inherit;text-decoration: none;}
 footer {background-color: black;padding: 5% 10% 2% 10%;}
 nav {background-color: black;padding: 1% 10%;}
 
+select,
+textarea,
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"] {
+  font-size: 16px !important;
+  -webkit-appearance: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {transition: background-color 5000s ease-in-out 0s !important;}
+
 .warper{padding: 5% 10%}
 .blackbg{background-color: black;}
 .whitebg {background-color: #fff;}
 .greybg {background-color: #EDEDED;}
+.sectionInpage{ padding: 0 10%}
+
 
 /* for shrinking the page on zoom  out */
 @media screen and (min-width: 900px) {
-  .container {max-width: 1420px !important;margin: auto;width: 100%;}
+  .container {max-width: 1320px !important;margin: auto;width: 100%;}
 }
 /* responsive */
 @media only screen and (max-width: 960px) {
@@ -62,3 +79,5 @@ nav {background-color: black;padding: 1% 10%;}
 @media only screen and (min-width: 960px) {
   a.active:after {width: 100%;left: 0;color: #00b180;}
 }
+
+.not-found{display: flex;flex-direction: column;justify-content: center;margin: auto;text-align: center;}

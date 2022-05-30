@@ -70,6 +70,7 @@ const Navbar = () => {
                   className={styles.greyText}
                   onClick={toggleNav}
                   href="/"
+                  exact
                 >
                   HOME
                 </NavLink>

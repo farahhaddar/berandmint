@@ -1,8 +1,9 @@
 /* projects */
-.catDesc{font-size: 28px;color:#000;font-family: "Avenir Regular";width: 60%;margin-bottom: 20px;}
+.catDesc{font-size: 28px;color:#000;font-family: "Avenir Regular";width: 70%;margin-bottom: 20px;}
 .catName{color:#00b180;font-weight: 900;}
 
 /* defult card */
+.projectsSection{display: grid;grid-template-columns: repeat(3,2fr); gap: 1em 1em;margin-bottom: 20px;}
 .projectCard {width: 100%; height: 353px;overflow: hidden;position: relative;cursor: pointer;}
 .projectCard img{ width: 100%;height: 100% !important;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all .5s;}
 .projectCard:hover img,.projectCard:focus img{-ms-transform: scale(1.2);-moz-transform: scale(1.2);-webkit-transform: scale(1.2);-o-transform: scale(1.2);transform: scale(1.2);}
@@ -19,10 +20,20 @@
 .envrow2 .projectCard{ height: 553px;}
 /* env */
 
+/* fbSection */
+.fbrow1{display: grid;grid-template-columns: repeat(3, 2fr);gap: 1em 1em;margin-bottom: 20px;}
+.fbrow2{display: grid;grid-template-columns: repeat(2, 2fr);gap: 1em 1em;margin-bottom: 20px;}
+.fbrow3 {display: grid;grid-template-columns: repeat(2, 2fr);gap: 1em 1em;}
+.fbrow2 .projectCard{ height: 553px;}
+.fbrow3 .projectCard{ height: 700px;}
+/* fbsection */
 
-
-
-
+/* otehrSections */
+.otherrow1{display: grid;grid-template-columns: repeat(1, 2fr);gap: 1em 1em;margin-bottom: 20px;}
+.otherrow2 {display: grid;grid-template-columns: repeat(2, 2fr);gap: 1em 1em;}
+.otherrow2 .projectCard{ height: 700px;}
+.otherrow2 .projectCard{ height: 512px;}
+/* otehrSections */
 
 /* seeall arow */
 .seeAll{ color: #00b180; display: flex; justify-content: flex-end;}
@@ -30,26 +41,31 @@
 
 /* back to home */
 .projectcta {padding: 10px 35px;border: 2px solid #00b180;background-color: #00b180;border-radius: 10px;cursor: pointer;transition: 0.3s ease 0s;width: fit-content;font-size: 18px; margin: auto; color:#fff; margin-top: 5%;}
-.projectcta:hover {background-color: transparent;color:#000;transition: 0.3s ease 0s;}
+.projectcta:hover {background-color: transparent;color:#00b180;transition: 0.3s ease 0s;}
 
 @media only screen and (max-width: 960px) {
 .catDesc{font-size: 25px;width: 100%;}
-
-/* envgrid */
+.projectsSection {grid-template-columns: repeat(2, 2fr);gap: 1em 1em;margin-bottom: 20px;}
 .envrow2 .projectCard{ height: 300px;}
 .projectCard {height: 300px;}
+.otherrow2 .projectCard{ height: 512px;}
+.fbrow2 .projectCard{ height: 512px;}
+.fbrow3 .projectCard{ height: 512px;}
+
 
 
 }
 
 @media only screen and (max-width: 600px) {
- /*projects */
+.envrow1,.envrow2,.envrow3,.otherrow1,.otherrow2,.fbrow1,.fbrow2,.fbrow3{ display: block;margin-bottom: 20px;}
+.envrow2 .projectCard,.projectCard,.otherrow1 .projectCard,
+.otherrow2 .projectCard,.fbrow3 .projectCard,.fbrow2 .projectCard {width: 100%; height: 330px; margin-bottom: 20px;}
+.projectsSection{ display: block;margin-bottom: 20px;}
 
-.envrow1,.envrow2,.envrow3{ display: block;margin-bottom: 20px;}
-.envrow2 .projectCard,.projectCard {width: 100%; height: 330px; margin-bottom: 20px;}
+
 
 
 .projectcta {padding: 10px 20px; font-size: 15px;}
  
-/*end projects */
+
 }

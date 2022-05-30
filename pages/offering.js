@@ -5,12 +5,19 @@ export default function Home() {
      return (
           <div>
                <Head>
-                    <title>Brandmint | Home </title>
+                    <title>Brandmint | Offering </title>
                     <meta name="description" content="" />
                     <link rel="icon" href="/favicon.ico" />
                </Head>
                <main>
-                    Hello Offering
+                    <div className='warper whitebg'>
+                         <div className="container">
+                              <div>
+                                   Offering Page
+                              </div>
+                         </div>
+                    </div>
+
                </main>
 
 

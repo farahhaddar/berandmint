@@ -5,7 +5,7 @@ import { NavLink } from "../../NavLink";
 
 const EnvCat = () => {
      return (
-          <div className='warper whitebg'>
+          <div className='warper whitebg '>
                <div className="container">
                     <div>
                          <div className={styles.catDesc}>
@@ -15,7 +15,7 @@ const EnvCat = () => {
                          <div className={styles.envSection}>
 
                               <div className={styles.envrow1}>
-                                   <NavLink href="/work/1">
+                                   <NavLink href="/work/project/1">
                                         <div className={`${styles.projectCard} ${styles.div1}`} >
                                              <img src='/images/spine.png' />
                                              <div className={styles.projectOverly}>
@@ -24,7 +24,7 @@ const EnvCat = () => {
                                         </div>
                                    </NavLink>
 
-                                   <NavLink href="/work/1">
+                                   <NavLink href="/work/project/1">
                                         <div className={`${styles.projectCard} ${styles.div2}`} >
                                              <img src='/images/bart.png' />
                                              <div className={styles.projectOverly}>
@@ -32,7 +32,7 @@ const EnvCat = () => {
                                              </div>
                                         </div>
                                    </NavLink>
-                                   <NavLink href="/work/1">
+                                   <NavLink href="/work/project/1">
                                         <div className={`${styles.projectCard} ${styles.div3}`} >
                                              <img src='/images/kenz.png' />
                                              <div className={styles.projectOverly}>
@@ -42,7 +42,7 @@ const EnvCat = () => {
                                    </NavLink>
                               </div>
                               <div className={styles.envrow2}>
-                                   <NavLink href="/work/1">
+                                   <NavLink href="/work/project/1">
                                         <div className={`${styles.projectCard} ${styles.div4}`} >
                                              <img src='/images/bart.png' />
                                              <div className={styles.projectOverly}>
@@ -50,9 +50,9 @@ const EnvCat = () => {
                                              </div>
                                         </div>
                                    </NavLink>
-                                   <NavLink href="/work/1">
+                                   <NavLink href="/work/project/1">
                                         <div className={`${styles.projectCard} ${styles.div5}`} >
-                                             <img src='/images/spine.png' />
+                                             <img src='/images/env.png' />
                                              <div className={styles.projectOverly}>
                                                   <span className={styles.projectTitle}>Spine</span>
                                              </div>
@@ -62,7 +62,7 @@ const EnvCat = () => {
                               </div>
 
                               <div className={styles.envrow3}>
-                                   <NavLink href="/work/1">
+                                   <NavLink href="/work/project/1">
                                         <div className={`${styles.projectCard} ${styles.div1}`} >
                                              <img src='/images/spine.png' />
                                              <div className={styles.projectOverly}>
@@ -71,7 +71,7 @@ const EnvCat = () => {
                                         </div>
                                    </NavLink>
 
-                                   <NavLink href="/work/1">
+                                   <NavLink href="/work/project/1">
                                         <div className={`${styles.projectCard} ${styles.div2}`} >
                                              <img src='/images/bart.png' />
                                              <div className={styles.projectOverly}>
@@ -79,7 +79,7 @@ const EnvCat = () => {
                                              </div>
                                         </div>
                                    </NavLink>
-                                   <NavLink href="/work/1">
+                                   <NavLink href="/work/project/1">
                                         <div className={`${styles.projectCard} ${styles.div3}`} >
                                              <img src='/images/kenz.png' />
                                              <div className={styles.projectOverly}>
@@ -91,7 +91,7 @@ const EnvCat = () => {
                          </div>
                          {/* see all */}
                          <div className={styles.seeAll}>
-                              <NavLink href="/work">
+                              <NavLink href="/work/category/1">
                                    See all <span className={styles.arrow}>&#8594;</span> 
                               </NavLink>
                          </div>
