@@ -5,8 +5,7 @@
 /* defult card */
 .projectsSection{display: grid;grid-template-columns: repeat(3,2fr); gap: 1em 1em;margin-bottom: 20px;}
 .projectCard {width: 100%; height: 353px;overflow: hidden;position: relative;cursor: pointer;}
-.projectCard img{ width: 100%;height: 100% !important;-webkit-transition: all .8s;-moz-transition: all .8s;-o-transition: all .8s;transition: all .8s;object-position: center;
-     object-fit: cover;}
+.projectCard img{ width: 100%;height: 100% !important;-webkit-transition: all .8s;-moz-transition: all .8s;-o-transition: all .8s;transition: all .8s;object-position: center;object-fit: cover;}
 .projectCard:hover img,.projectCard:focus img{-ms-transform: scale(1.2);-moz-transform: scale(1.2);-webkit-transform: scale(1.2);-o-transform: scale(1.2);transform: scale(1.2);}
 .projectCard:hover .projectOverly,
 .projectCard:focus .projectOverly{display: block;}
@@ -43,6 +42,18 @@
 /* back to home */
 .projectcta {padding: 10px 35px;border: 2px solid #00b180;background-color: #00b180;border-radius: 10px;cursor: pointer;transition: 0.3s ease 0s;width: fit-content;font-size: 18px; margin: auto; color:#fff; margin-top: 5%;}
 .projectcta:hover {background-color: transparent;color:#00b180;transition: 0.3s ease 0s;}
+
+
+/* project Details page */
+.projectDetsTitle{text-transform: uppercase;font-size: 48px;font-family: 'Avenir Black';}
+.projectDetsDetails{font-family: "Avenir Regular";font-size: 18px;}
+.projectDetsCategories{display: flex;flex-wrap: wrap;gap: 1em 2em;margin-top: 30px;}
+.projectDetsCategories span{font-family: "Avenir Regular";font-weight: 900;font-size: 18px;color:#00b180}
+.projectDetsNav{margin-top: 35px;display: flex;gap: 0em 5em;font-size: 18px;}
+.projectDetsLink{border-bottom: 1px solid;}
+.projectDetsLink:hover {color:#00b180;border-color: #00b180}
+.projectDetslocation{font-family: "Avenir Regular";}
+.projectDetslocationContry{font-family: "Avenir Heavy";}
 
 @media only screen and (max-width: 960px) {
 .catDesc{font-size: 25px;width: 100%;}

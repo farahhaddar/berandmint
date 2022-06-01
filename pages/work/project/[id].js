@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Project from '../../../components/Work/Projects/Project'
 
 export default function Home() {
      return (
@@ -10,13 +11,7 @@ export default function Home() {
                     <link rel="icon" href="/favicon.ico" />
                </Head>
                <main>
-                    <div className='warper whitebg'>
-                         <div className="container">
-                              <div>
-                                   Project Details Page
-                              </div>
-                         </div>
-                    </div>
+                    <Project/>
                </main>
 
           </div>
