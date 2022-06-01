@@ -36,15 +36,15 @@
 .formrow{ display: flex; justify-content: space-between; gap:2em 2em}
 .formInput input ,.formInput textarea {width: 100%;margin-bottom: 25px;padding:20px;background-color: #EDEDED;border: none; border-radius: 6px;}
 .formInput input::placeholder ,.formInput textarea::placeholder {color: #434343;font-size: 16px;font-family: "Avenir Regular";}
-.formbtn{ display: flex;  justify-content:  flex-end; }
-.formInput button{ outline: none; background-color: #fff;color:#000 ;border: none; cursor: pointer;font-size: 18px; padding: 10px 35px;border: 2px solid #000;transition: 0.3s ease 0s; width: fit-content;border-radius: 10px; font-weight: 800;}
+.formbtn{ display: flex;  justify-content:  flex-end;  }
+.formInput button{ outline: none; background-color: #fff;color:#000 ;border: none; cursor: pointer;font-size: 18px; padding: 10px 35px;border: 2px solid #000;transition: 0.3s ease 0s; width: fit-content;border-radius: 10px; font-weight: 900;font-family: "Avenir Heavy";}
 .formInput button:hover {background-color: #000;color:#fff;transition: 0.3s ease 0s;}
 
 /* packages */
 .packagesCards{display: flex;justify-content: space-between;gap: 4em 4em;margin-top: 150px !important;}
 .packageCard{background: #fff 0% 0% no-repeat padding-box;background: #FFFFFF 0% 0% no-repeat padding-box;box-shadow: 0px 8px 24px #00000029;border-radius: 30px;opacity: 1; width: 50%; min-height: 300px;}
 .packageCardIcon{width: 169px;height: 169px;margin-top: -85px !important;}
-.packageCardTitle{ width: 75%;}
+.packageCardTitle{ width: 80%; height: 40px;}
 .packageCardIconWarper{display: flex;justify-content: center;align-items: center;}
 .packageCardTitleWarp{margin: 30px 0;display: flex;justify-content: center;align-items: center;}
 .packagecta{padding: 10px 25px;border: 2px solid #00b180; background-color: #00b180;border-radius: 10px;cursor: pointer;transition: 0.3s ease 0s;width: fit-content;font-size: 16px; color:#fff; margin: 5% auto ;}
@@ -65,7 +65,7 @@
      object-fit: cover;}
 .VideoText{width: 50%;}
 .VideoTextTitle{color: #fff;font-size: 48px;font-weight: 900; margin-bottom: 15px;font-family: "Avenir Regular"; }
-.VideoDets{ font-size: 16px; color: #fff;font-family: "Avenir Book"; font-weight: 500;}
+.VideoDets{ font-size: 16px; color: #fff;font-family: "Avenir Book"; font-weight: 500;width: 85%;}
 
 
 

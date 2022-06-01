@@ -57,11 +57,11 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {transition: background-color 5000s ease-in-out 0s !important;}
 
-.warper{padding: 5% 10%}
+.warper{padding: 80px 8em}
 .blackbg{background-color: black;}
 .whitebg {background-color: #fff;}
 .greybg {background-color: #EDEDED;}
-.sectionInpage{ padding: 0 10%}
+.sectionInpage{ padding: 0 8em}
 
 
 /* for shrinking the page on zoom  out */

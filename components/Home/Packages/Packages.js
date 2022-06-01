@@ -22,7 +22,7 @@ const Packages = () => {
                                         <img className={styles.packageCardIcon} src="/images/experience.svg" alt="Package Icon" />
                                    </div>
                                    <div className={styles.packageCardTitleWarp}>
-                                   <img className={styles.packageCardTitle} src="/images/expTitle.png" alt="Pacakge Title" />
+                                        <img className={styles.packageCardTitle} src="/images/experinceTitle.svg" alt="Pacakge Title" />
                                    </div>
                                    {/* btn */}
                                    <div className={styles.packagecta2}>
@@ -38,7 +38,7 @@ const Packages = () => {
                                    </div>
 
                                    <div className={styles.packageCardTitleWarp}>
-                                        <img className={styles.packageCardTitle} src="/images/expresTitle.png" alt="Pacakge Title" />
+                                        <img className={styles.packageCardTitle} src="/images/expressTitle.svg" alt="Pacakge Title" />
                                    </div> 
 
                                    {/* btn */}

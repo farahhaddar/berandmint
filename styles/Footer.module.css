@@ -8,20 +8,23 @@
 .logo{padding-bottom: 20px;}
 .contactItem{display: flex; margin-bottom: 10px ;}
 .icon{margin-right: 20px;}
-.textItem {transition: all 0.3s; margin-right: 10px; font-size: 18px; }
+.contactphone{display: flex;font-size: 18px;}
+.textItem {transition: all 0.3s; margin-right: 10px;  }
 .textItem:hover{color:#00B180;}
 .colTitle{font-family:'Avenir Black' ;font-size: 16px;font-weight: 900;margin-bottom: 20px;}
 .socialMedia,.footerAddress{margin-top: 50px;}
 .copyrights{font-family: 'Avenir Book';color: white;font-size: 15px;border-top: 1px solid rgba(255, 255, 255, 0.778) ;padding-top:2%;margin-top: 5%; display: flex; justify-content: center;}
 .copyrights div{ margin-right: 5px;}
 .socialMedia{display: flex;justify-content: space-between;}
- 
+.hideDash{margin: 0 8px;}
 
 @media screen and (max-width: 960px) {
-     
+.hideDash {display:none}
 .footer {display: block; padding: 10px 0 ;}
 .col1 {width: 100%;}
 .footerDec{ width:60%}
+.contactphone{flex-direction: column;}
+.contactItem{align-items:  center;}
 .hide {visibility: unset;display: none;}
 .col2 {margin-right: unset;display: flex;flex-direction: row;width: 45%;justify-content: space-between;padding-bottom: 20px;}
 .col2linkPadd {padding-top: 0px}

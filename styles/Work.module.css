@@ -37,8 +37,8 @@
 /* otehrSections */
 
 /* seeall arow */
-.seeAll{ color: #00b180; display: flex; justify-content: flex-end;}
-.arrow{ font-size: 1.5em;}
+.seeAll{ color: #00b180;display: flex; justify-content: flex-end;margin-top: 10px;}
+.arrow{ width: 12px; height: 12px; }
 
 /* back to home */
 .projectcta {padding: 10px 35px;border: 2px solid #00b180;background-color: #00b180;border-radius: 10px;cursor: pointer;transition: 0.3s ease 0s;width: fit-content;font-size: 18px; margin: auto; color:#fff; margin-top: 5%;}

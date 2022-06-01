@@ -45,9 +45,10 @@ const Footer = () => {
                                                   <path id="Fill_1" data-name="Fill 1" d="M7.072,8.6C4.341,5.874,4.731,5.484,4.731,5.484L5.9,4.313a1.1,1.1,0,0,0,0-1.56L3.474.325A1.1,1.1,0,0,0,1.968.273,5.744,5.744,0,0,0,.049,3.143c-.39,1.95,1.561,4.681,4.681,7.8s5.852,5.071,7.8,4.681a5.744,5.744,0,0,0,2.87-1.919,1.1,1.1,0,0,0-.052-1.506L12.923,9.775a1.1,1.1,0,0,0-1.56,0l-1.17,1.171s-.39.39-3.121-2.341" fill="#00b180" />
                                              </svg>
                                         </div>
-                                        <div>
-                                             <a className={styles.textItem} href="tel:+961 1 748 204">+961 1 748 204</a>
-                                             <a className={styles.textItem} href="tel:+961 1 748 205">+961 1 748 205</a>
+                                        <div className={styles.contactphone}>
+                                             <a className={styles.textItem} href="tel:+96101748204"> +96101748204</a>
+                                             <span className={styles.hideDash}>/</span> 
+                                             <a className={styles.textItem} href="tel:+96101748205"> +96101748205</a>
                                         </div>
                                    </div>
                               </div>
@@ -107,7 +108,7 @@ const Footer = () => {
                     </div>
                     <div className={styles.copyrights}>
                          <div>
-                              Copyright © 2022 Brandmint s.a.l -
+                              Copyright © 2022 Brandmint s.a.l <span className={styles.hideDash}>-</span>
                          </div>
                          <div>
                                All Right Reserved
