@@ -1,4 +1,6 @@
 /* custom btns */
+.buttonGroupContainer{display: flex;justify-content: space-between;align-items: center; position: absolute; top:0;left:0;right:0}
+.carouselTitle{font-size: 48px;font-family: 'Avenir Black';}
 .buttonGroup {display: flex;}
 .buttonGroup button {height: 26px;display: flex;justify-content: center;align-items: center;width: 26px;border: 2px solid #00b180;font-size: 18px;cursor: pointer;border-radius: 6px;transition: all 0.25s; color: #fff;background-color: #00b180;}
 .buttonGroup button:first-child{ margin-right: 8px;}
@@ -6,23 +8,17 @@
 .buttonGroup button:focus {outline: none;}
 .disable{background-color: #fff !important;color: #00b180 !important;pointer-events: none !important;}
 
-/* similar project slider */
-/* .slider{ padding-top: 100px; margin: 50px 0; position: relative;}
-.buttonGroupContainer{position: absolute;top:24px;right:0;}
-.carouselTitle{position: absolute;font-size: 48px;font-weight: 900;top: 0;left: 0;}
-
-.sliderWarper{
-     background-color: red;
+.carouselWrapper{
+     position: relative;
+     margin: 50px 0 ;
+}
+.carousel{
+     padding: 150px 0;
 }
 
-.sliderCard{
-     width:100%;
-     height: 800px;
-     background-color: #fff;
-     border: 2px solid black;
-}
-.sliderCards img{
-     width: 100% !important;
-     height:300px  !important;
-} */
 
+
+@media only screen and (max-width: 960px) {
+.carouselTitle{font-size: 28px;}
+
+}

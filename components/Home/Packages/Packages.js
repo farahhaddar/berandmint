@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "../../../styles/Home.module.css";
 import { NavLink } from "../../NavLink";
+import Router from "next/router";
 
 const Packages = () => {
      return (
@@ -26,9 +27,14 @@ const Packages = () => {
                                    </div>
                                    {/* btn */}
                                    <div className={styles.packagecta2}>
-                                        <NavLink href="/offering">
+                                        <div 
+                                             onClick={function () { Router.push({
+                                                  pathname: '/offering',
+                                                  query: { name: 'experience' }
+                                             }, '/offering#tabs') }}
+                                        >
                                              Read More
-                                        </NavLink>
+                                        </div>
                                    </div>
                               </div>
                               <div className={styles.packageCard}>
@@ -43,9 +49,16 @@ const Packages = () => {
 
                                    {/* btn */}
                                    <div className={styles.packagecta}>
-                                        <NavLink href="/offering">
+                                        <div
+                                             onClick={function () {
+                                                  Router.push({
+                                                       pathname: '/offering',
+                                                       query: { name: 'express' }
+                                                  }, '/offering#tabs')
+                                             }}
+                                        >
                                              Read More
-                                        </NavLink>
+                                        </div>
                                    </div>
                               </div>
 

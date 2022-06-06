@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import styles from "../../styles/Offering.module.css";
 import { NavLink } from "../NavLink";
 import Slider from '../Carousel/Slider'
+import { useRouter } from 'next/router'
 
 
 const responsive = {
@@ -94,14 +95,23 @@ const tabData = {
 
 export default function Offering() {
 
-     
-     const { express,  experience } = tabData;
+     const setTabStateQuery = (name) => {
+          if (name === 'express') {
+               return ({ active: 'express', data: express });
+          } else if (name === 'experience') {
+               return ({ active: 'experience', data: experience, });
+          }
+     }
 
-     const [tab, setTab] = useState({
-          active:'experience',
-          data:experience
+     const { express, experience } = tabData;
+     const { query } = useRouter();
+
+     const [tab, setTab] = useState(query.name ? setTabStateQuery(query.name) : {
+          active: 'experience',
+          data: experience
      });
 
+    
      const handleTab = (tab) => {
           if (tab === 'express') {
                setTab({
@@ -125,7 +135,7 @@ export default function Offering() {
                       <p>Forget all about outdated traditional brand guidelines, and meet your <span className={styles.offeringmaintext}>Brand Book</span>, containing your brand DNA & strategic roadmap.</p>
                       <p>The Brand Book is a User-friendly manual designed to aid brands as they navigate through today's competitive markets.</p>
                  </div>
-
+               <a id="tabs"></a>
                  <div className={styles.tabsSection}>
                       <div className={styles.tabbtns}>
                               
