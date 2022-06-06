@@ -55,6 +55,7 @@
 .projectDetslocation{font-family: "Avenir Regular";}
 .projectDetslocationContry{font-family: "Avenir Heavy";}
 
+
 @media only screen and (max-width: 960px) {
 .catDesc{font-size: 20px;width: 100%;}
 .projectsSection {grid-template-columns: repeat(2, 2fr);gap: 1em 1em;margin-bottom: 20px;}
@@ -64,8 +65,14 @@
 .fbrow2 .projectCard{ height: 512px;}
 .fbrow3 .projectCard{ height: 512px;}
 
-
-
+.projectDetsTitle{font-size: 28px; margin-bottom: 20px;}
+.projectDetsDetails{font-size: 15px;}
+.projectDetsCategories{gap: 0.5em 1em;}
+.projectDetsCategories span{font-size: 13px;}
+.projectDetsNav{gap: 15px;font-size: 14px; flex-direction: column; margin: 25px 0;}
+.projectDetsLink{ width: fit-content; order:2}
+.projectDetsLink:hover {color:#00b180;border-color: #00b180}
+.projectDetslocation{order: 1}
 }
 
 @media only screen and (max-width: 600px) {

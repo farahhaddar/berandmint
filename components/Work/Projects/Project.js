@@ -74,7 +74,7 @@ const Project = () => {
                     </div>
                     
                     
-                    <LightBox
+                    {/* <LightBox
                          state={toggle}
                          event={lightBoxHandler}
                          data={data}
@@ -87,7 +87,7 @@ const Project = () => {
                     />
 
                    
-                    <Slider/>
+                    <Slider/> */}
 
 
 
