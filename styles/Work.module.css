@@ -47,7 +47,7 @@
 /* project Details page */
 .projectDetsTitle{text-transform: uppercase;font-size: 48px;font-family: 'Avenir Black';}
 .projectDetsDetails{font-family: "Avenir Regular";font-size: 18px;}
-.projectDetsCategories{display: flex;flex-wrap: wrap;gap: 1em 2em;margin-top: 30px;}
+.projectDetsCategories{display: flex;flex-wrap: wrap;gap: 0.5em 2em;margin-top: 30px;}
 .projectDetsCategories span{font-family: "Avenir Regular";font-weight: 900;font-size: 18px;color:#00b180}
 .projectDetsNav{margin-top: 35px;display: flex;gap: 0em 5em;font-size: 18px;}
 .projectDetsLink{border-bottom: 1px solid;}
@@ -56,7 +56,7 @@
 .projectDetslocationContry{font-family: "Avenir Heavy";}
 
 @media only screen and (max-width: 960px) {
-.catDesc{font-size: 25px;width: 100%;}
+.catDesc{font-size: 20px;width: 100%;}
 .projectsSection {grid-template-columns: repeat(2, 2fr);gap: 1em 1em;margin-bottom: 20px;}
 .envrow2 .projectCard{ height: 300px;}
 .projectCard {height: 300px;}
@@ -79,3 +79,7 @@
  
 
 }
+
+
+
+

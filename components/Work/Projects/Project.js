@@ -5,9 +5,24 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "../../../styles/Work.module.css";
 import { NavLink } from "../../NavLink";
+import {LightBox} from 'react-lightbox-pack'; 
+import "react-lightbox-pack/dist/index.css";
+import data from './data.json'; 
+import Slider from '../../Carousel/Slider';
+
 
 
 const Project = () => {
+     const [toggle, setToggle] = React.useState(false);
+     const [sIndex, setSIndex] = React.useState(0);
+
+     // Handler
+     const lightBoxHandler = (state, sIndex) => {
+          setToggle(state);
+          setSIndex(sIndex);
+     };
+
+
      return (
           <div className='warper whitebg '>
                <div className="container">
@@ -40,6 +55,40 @@ const Project = () => {
                               Location: <span className={styles.projectDetslocationContry}>Beirut, Lebanon </span>
                          </div>
                     </div>
+                    
+                    
+                    <div className="grid">
+                    {data.map((item, index) => (
+                       
+                              <img
+                                   key={item.id}
+                                   src={item.image}
+                                   alt='image'
+                                   className={item.class}
+                                   onClick={() => {
+                                        lightBoxHandler(true, index);
+                                   }}
+                              />
+                         
+                    ))}
+                    </div>
+                    
+                    
+                    <LightBox
+                         state={toggle}
+                         event={lightBoxHandler}
+                         data={data}
+                         imageWidth="40vw"
+                         imageHeight="40vh"
+                         thumbnailHeight={80}
+                         thumbnailWidth={80}
+                         setImageIndex={setSIndex}
+                         imageIndex={sIndex}
+                    />
+
+                   
+                    <Slider/>
+
 
 
                     {/* btn back Home */}
