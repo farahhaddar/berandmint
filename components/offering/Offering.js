@@ -157,17 +157,17 @@ export default function Offering() {
                       </div>
 
                       <div className={styles.tabsData}>
-                           {tab.data.map((item) => (
+                           {tab.data.map((item,index) => (
                                 <div
                                      className={styles.tabcontent}
-                                     key={item.id}
+                                     key={`${item.id}+${index}`}
                                 > 
                                      <p className={styles.tabDescription}>{item.description && item.description }</p>
 
                                      <div className={item.offers.length >= 3 ? styles.offerCards : styles.offerCardsTwo}>
                                      
                                      {item.offers.map((card) => (
-                                          <div className={styles.offerCard}>
+                                          <div key={card.id} className={styles.offerCard}>
                                                <div className={styles.offerCardIcon}>
                                                     <img src={card.icon} alt={card.name} width='70px' height='65px' />
                                              </div>
