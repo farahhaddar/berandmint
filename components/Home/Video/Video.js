@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import ReactDOM from 'react-dom'
 import ModalVideo from 'react-modal-video'
 import Link from "next/link";
@@ -8,12 +8,8 @@ import styles from "../../../styles/Home.module.css";
 import { NavLink } from "../../NavLink";
 import { IoIosPlay } from 'react-icons/io';
 
-if (typeof window !== 'undefined') {
-     console.log('You are on the browser')
-} else {
-     console.log('You are on the server')
-}
 
+const isBrowser = typeof window !== "undefined";
 
 
 
@@ -25,8 +21,10 @@ const Video = () => {
           e.preventDefault();
           setVideoOpen(true);
      };
+     
 
-     return (
+
+     return  (
           <div className='warper blackbg blackWhitebg'>
                <div className="container">
                     <div className={styles.VideoSection}>
@@ -53,12 +51,15 @@ const Video = () => {
                          </div>
                          
                     </div>
-                    {/* <ModalVideo
-                         channel="youtube"
+                    {(typeof window !== 'undefined') &&
+                    <ModalVideo
+                         channel='custom'
+                         url='/videos/brandmint.mp4'
                          isOpen={videoOpen}
-                         videoId="ZNA9rmDsYVE"
                          onClose={() => setVideoOpen(false)}
-                    /> */}
+                         allowFullScreen
+                    />
+                   }
                     
 
 
