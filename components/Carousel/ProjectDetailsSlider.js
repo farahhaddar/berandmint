@@ -183,8 +183,8 @@ export default function ProjectDetailsSlider() {
                  >
                       {data.map((item) => (
 
-                           <NavLink href={`/work/project/${item.id}`} >
-                           <div className={styles.card1} key={item.id}>
+                           <NavLink key={item.id} href={`/work/project/${item.id}`} >
+                           <div className={styles.card1} >
                          
                                 <img src={item.img} alt=""  width='100%' height='100%' />
                                 <div className={styles.tagsWarp}>
