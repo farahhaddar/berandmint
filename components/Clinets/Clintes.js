@@ -1,47 +1,38 @@
 import Link from "next/link";
 import Image from "next/image";
-import styles from "../../../styles/Home.module.css";
-import { NavLink } from "../../NavLink";
+import styles from "../../styles/Clinets.module.css";
+import { NavLink } from "../NavLink";
+import ClinetsSlider from "../Carousel/ClinetsSlider";
 
-const Packages = () => {
+const ClinetsMain = () => {
      return (
           <div className='warper whitebg'>
                <div className="container">
-                    <div className={styles.contactSection}>
+                    
                          <div className={styles.sectionTitle}>
                               OUR CLIENTS
                          </div>
-                         <div className={styles.secDescLight}>
-                              Our variety of clients extends among different sectors:
-                         </div>
-                         <div className={styles.sectionDesc}>
-                              <span>Food, Beverage & Hospitality</span> - <span>Finance</span> - <span>Retail</span> - <span>Services </span>- <span>Medical</span> - <span> Education & Culture</span>.
-                         </div>
+                         <div className={styles.secDescLight}>We're proud of helping the best companies deliver positive emotions to their customers. </div>
+                         
 
-                         <div className={styles.clinetsCards}>
-                              <a href="https://www.abc.com.lb/" target='_blanck'>
-                                   <img src="/images/logos1.svg" alt="Logo" /></a>
-                              <a href="https://www.abc.com.lb/" target='_blanck'><img src="/images/logos2.svg" alt="Logo" /></a>
-                              <a href="https://www.abc.com.lb/" target='_blanck'><img src="/images/logos3.svg" alt="Logo" /></a>
-                              <a href="https://www.abc.com.lb/" target='_blanck'><img src="/images/logos4.png" alt="Logo" /></a>
-                              <a href="https://www.abc.com.lb/" target='_blanck'><img src="/images/logos5.svg" alt="Logo" /></a>
-                              <a href="https://www.abc.com.lb/" target='_blanck'><img src="/images/logos6.svg" alt="Logo" /></a>
-                              <a href="https://www.abc.com.lb/" target='_blanck'><img src="/images/logos8.svg" alt="Logo" /></a>
-                              <a href="https://www.abc.com.lb/" target='_blanck'><img src="/images/logos9.svg" alt="Logo" /></a>
-                              <a href="https://www.abc.com.lb/" target='_blanck'><img src="/images/logos1.svg" alt="Logo" /></a>
-                              <a href="https://www.abc.com.lb/" target='_blanck'><img src="/images/logos3.svg" alt="Logo" /></a>
-                         </div>
+                         
+                    
+
+                    <ClinetsSlider title='Food & Beverage' />
+                    <ClinetsSlider title='Hospitality & Real estate' />
+                    <ClinetsSlider title='Finance' />
+                    <ClinetsSlider title='Retail' />
+                    <ClinetsSlider title='Services' />
+                    <ClinetsSlider title='Medical' />
 
 
-                         {/* btn */}
-                         <div className={styles.packagecta}>
-                              <NavLink href="/clients">
-                                   View All Our Clinets
-                              </NavLink>
-                         </div>
-
-
+                    {/* btn back Home */}
+                    <div className={styles.projectcta}>
+                         <NavLink href="/">
+                              Back To Home
+                         </NavLink>
                     </div>
+
 
                </div>
           </div>
@@ -49,4 +40,4 @@ const Packages = () => {
 
      );
 };
-export default Packages;
+export default ClinetsMain;

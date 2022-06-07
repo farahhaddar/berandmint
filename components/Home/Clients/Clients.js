@@ -19,17 +19,17 @@ const Clinets = () => {
                          </div>
 
                          <div className={styles.clinetsCards}>
-                              <a href="https://www.abc.com.lb/" target='_blanck'>
+                              <a href="https://www.abc.com.lb/" rel="noopener noreferrer" target='_blank'>
                                    <img src="/images/logos1.svg" alt="Logo" /></a>
-                              <a href="https://www.abc.com.lb/" target='_blanck'><img src="/images/logos2.svg" alt="Logo" /></a>
-                              <a href="https://www.abc.com.lb/" target='_blanck'><img src="/images/logos3.svg" alt="Logo" /></a>
-                              <a href="https://www.abc.com.lb/" target='_blanck'><img src="/images/logos4.png" alt="Logo" /></a>
-                              <a href="https://www.abc.com.lb/" target='_blanck'><img src="/images/logos5.svg" alt="Logo" /></a>
-                              <a href="https://www.abc.com.lb/" target='_blanck'><img src="/images/logos6.svg" alt="Logo" /></a>
-                              <a href="https://www.abc.com.lb/" target='_blanck'><img src="/images/logos8.svg" alt="Logo" /></a>
-                              <a href="https://www.abc.com.lb/" target='_blanck'><img src="/images/logos9.svg" alt="Logo" /></a>
-                              <a href="https://www.abc.com.lb/" target='_blanck'><img src="/images/logos1.svg" alt="Logo" /></a>
-                              <a href="https://www.abc.com.lb/" target='_blanck'><img src="/images/logos3.svg" alt="Logo" /></a>
+                              <a href="https://www.abc.com.lb/" rel="noopener noreferrer" target='_blank'><img src="/images/logos2.svg" alt="Logo" /></a>
+                              <a href="https://www.abc.com.lb/" rel="noopener noreferrer" target='_blank'><img src="/images/logos3.svg" alt="Logo" /></a>
+                              <a href="https://www.abc.com.lb/" rel="noopener noreferrer" target='_blank'><img src="/images/logos4.png" alt="Logo" /></a>
+                              <a href="https://www.abc.com.lb/" rel="noopener noreferrer" target='_blank'><img src="/images/logos5.svg" alt="Logo" /></a>
+                              <a href="https://www.abc.com.lb/" rel="noopener noreferrer" target='_blank'><img src="/images/logos6.svg" alt="Logo" /></a>
+                              <a href="https://www.abc.com.lb/" rel="noopener noreferrer" target='_blank'><img src="/images/logos8.svg" alt="Logo" /></a>
+                              <a href="https://www.abc.com.lb/" rel="noopener noreferrer" target='_blank'><img src="/images/logos9.svg" alt="Logo" /></a>
+                              <a href="https://www.abc.com.lb/" rel="noopener noreferrer" target='_blank'><img src="/images/logos1.svg" alt="Logo" /></a>
+                              <a href="https://www.abc.com.lb/" rel="noopener noreferrer" target='_blank'><img src="/images/logos3.svg" alt="Logo" /></a>
                          </div>
 
                          

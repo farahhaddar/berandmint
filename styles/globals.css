@@ -137,5 +137,5 @@ input:-webkit-autofill:active {transition: background-color 5000s ease-in-out 0s
 .modalVideoCloseBtn:hover{cursor: pointer !important;}
 
 .react-multi-carousel-track { gap: 20px 1% !important;}
-
+.clinetsSlider .react-multi-carousel-track { gap: 20px 2em !important; }
 
