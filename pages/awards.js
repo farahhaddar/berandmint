@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import AwardMain from '../components/Awards/Awards'
+import LetsTalk from '../components/Awards/LetsTalk'
 
 export default function Awards() {
      return (
@@ -10,13 +12,8 @@ export default function Awards() {
                     <link rel="icon" href="/favicon.ico" />
                </Head>
                <main>
-                    <div className='warper whitebg'>
-                         <div className="container">
-                              <div>
-                                   Awards Page
-                              </div>
-                         </div>
-                    </div>
+                    <AwardMain/>
+                    <LetsTalk/>
                </main>
 
 
