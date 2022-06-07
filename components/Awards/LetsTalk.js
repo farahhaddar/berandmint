@@ -16,7 +16,7 @@ const LetsTalk = () => {
 
                     {/* btn  Home form */}
                     <div className={styles.projectcta}>
-                         <NavLink href="/">
+                         <NavLink href="/#contact">
                               Let's Talk
                          </NavLink>
                     </div>
