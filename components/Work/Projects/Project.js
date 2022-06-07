@@ -9,7 +9,7 @@ import {LightBox} from 'react-lightbox-pack';
 import "react-lightbox-pack/dist/index.css";
 import data from './data.json'; 
 import Slider from '../../Carousel/Slider';
-import MultiSlider from '../../Carousel/MultiSlider';
+import ProjectDetailsSlider from '../../Carousel/ProjectDetailsSlider';
 
 
 
@@ -85,12 +85,10 @@ const Project = () => {
                          thumbnailWidth={80}
                          setImageIndex={setSIndex}
                          imageIndex={sIndex}
-                    />
+                    />*/}
 
-                   
-                    <Slider/> */}
 
-                    <MultiSlider/>
+                    <ProjectDetailsSlider/>
 
 
 

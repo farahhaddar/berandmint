@@ -4,7 +4,7 @@ import Slider from '../../../components/Carousel/Slider'
 import Project from '../../../components/Work/Projects/Project'
 
 
-export default function Home() {
+export default function ProjectDets() {
      return (
           <div>
                <Head>

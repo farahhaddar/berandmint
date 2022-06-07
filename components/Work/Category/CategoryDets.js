@@ -2,8 +2,9 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "../../../styles/Work.module.css";
 import { NavLink } from "../../NavLink";
+import { IoIosArrowBack } from 'react-icons/io';
 
-const Category = () => {
+const CategoryDets = () => {
      return (
           <div className='warper whitebg'>
                <div className="container">
@@ -106,6 +107,13 @@ const Category = () => {
                                    Load More
                               </NavLink>
                          </div>
+                         {/* back arrow */}
+                         <div>
+                              <NavLink className={styles.seeAllBack} href="/work">
+                                   <IoIosArrowBack className={styles.arrowBack} /><span> Back</span>  
+                              </NavLink>
+                         </div>
+
                     </div>
 
 
@@ -117,4 +125,4 @@ const Category = () => {
 
      );
 };
-export default Category;
+export default CategoryDets;

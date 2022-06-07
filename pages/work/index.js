@@ -7,7 +7,7 @@ import FbCat from "../../components/Work/FbCat/FbCat"
 import OtherCat from "../../components/Work/OtherCat/OtherCat"
 
 
-export default function Home() {
+export default function Work() {
      return (
           <>
                <Head>

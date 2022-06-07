@@ -72,7 +72,7 @@ const Navbar = () => {
                   href="/"
                   exact
                 >
-                  HOME
+                  Home
                 </NavLink>
 
                 <NavLink
@@ -80,28 +80,35 @@ const Navbar = () => {
                   onClick={toggleNav}
                   href="/work"
                 >
-                  WORK
+                  Work
                 </NavLink>
                 <NavLink
                   className={styles.greyText}
                   onClick={toggleNav}
                   href="/offering"
                 >
-                  OFFERING
+                  Offering
                 </NavLink>
                 <NavLink
                   className={styles.greyText}
                   onClick={toggleNav}
                   href="/clients"
                 >
-                  <a>CLIENT</a>
+                  <a>Clients</a>
+                </NavLink>
+                <NavLink
+                  className={styles.greyText}
+                  onClick={toggleNav}
+                  href="/awards"
+                >
+                  <a>Awards</a>
                 </NavLink>
                 <NavLink
                   className={styles.greyText}
                   onClick={toggleNav}
                   href="/#contact"
                 >
-                  <a>LETS TALK</a>
+                  <a>Let's Talk</a>
                 </NavLink>
               </div>
               <div className={styles.socialMedia}>

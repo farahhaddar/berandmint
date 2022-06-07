@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight } from '@fortawesome/fontawesome-free-solid'
 import styles from "../../../styles/Work.module.css";
 import { NavLink } from "../../NavLink";
+import { IoIosArrowForward } from 'react-icons/io';
+
 
 const OtherCat = () => {
      return (
@@ -50,9 +50,9 @@ const OtherCat = () => {
                
                          </div>
                          {/* see all */}
-                         <div className={styles.seeAll}>
-                              <NavLink href="/work/category/1">
-                                   Explore More  <FontAwesomeIcon icon={faArrowRight} className={styles.arrow} />
+                         <div>
+                              <NavLink className={styles.seeAll} href="/work/category/1">
+                                   <span> Explore More</span>  <IoIosArrowForward className={styles.arrow}/>
                               </NavLink>
                          </div>
 

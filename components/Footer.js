@@ -26,7 +26,7 @@ const Footer = () => {
                                    </Link>
                               </div>
                               <div className={styles.footerDec}>
-                                   Funding freemium long tail hypotheses first mover advantage assets ownership niche market startup investor.
+                                   Award winning branding, design & communication agency.
                               </div>
                               <div className={styles.footerAddress}>
                                    <div className={styles.contactItem}>
@@ -61,7 +61,10 @@ const Footer = () => {
                               <Link href='/'><a className={styles.col2link}>Home</a></Link>
                               <Link href='/offering'><a className={`${styles.col2link} ${styles.col2linkPadd}`}> What we do</a></Link>
                               </div>
-                              <Link href='/clients'><a className={`${styles.col2link} ${styles.col2linkPadd}`}>Our Clients</a></Link>
+                              <div className={styles.linkwarp}>
+                                   <Link href='/clients'><a className={`${styles.col2link} ${styles.col2linkPadd}`}>Our Clients</a></Link>
+                                   <Link href='/awards'><a className={`${styles.col2link} ${styles.col2linkPadd}`}> Awards</a></Link>
+                              </div>
                          </div>
                          <div className={styles.col3}>
                               <div className={styles.colTitle}>

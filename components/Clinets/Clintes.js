@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "../../../styles/Home.module.css";
 import { NavLink } from "../../NavLink";
 
-const Clinets = () => {
+const Packages = () => {
      return (
           <div className='warper whitebg'>
                <div className="container">
@@ -32,7 +32,7 @@ const Clinets = () => {
                               <a href="https://www.abc.com.lb/" target='_blanck'><img src="/images/logos3.svg" alt="Logo" /></a>
                          </div>
 
-                         
+
                          {/* btn */}
                          <div className={styles.packagecta}>
                               <NavLink href="/clients">
@@ -49,4 +49,4 @@ const Clinets = () => {
 
      );
 };
-export default Clinets;
+export default Packages;

@@ -2,8 +2,12 @@ import React from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import styles from "../../styles/Slider.module.css";
-import ButtonGroup from "./ButtonGroup"
-export default function MultiSlider() {
+import ButtonGroup from "./ButtonGroup";
+import { NavLink } from "../NavLink";
+
+
+
+export default function ProjectDetailsSlider() {
 
      const data = [
           {
@@ -34,7 +38,7 @@ export default function MultiSlider() {
           },
           {
                id: 3,
-               img: '/images/spine.png',
+               img: '/images/antwork.png',
                tags: [
                     {
                          id: 1,
@@ -54,12 +58,12 @@ export default function MultiSlider() {
                     },
                ],
 
-               title: 'Korus',
+               title: 'Spine',
                description: 'Korus is a place where performance takes center stage. Right before your eyes, bright lights set the mood for the culinary delights that come to life. The design goes in harmony with the upscale vibe of a cigar-lounge.',
 
           }, {
                id: 4,
-               img: '/images/spine.png',
+               img: '/images/other.png',
                tags: [
                     {
                          id: 1,
@@ -79,12 +83,12 @@ export default function MultiSlider() {
                     },
                ],
 
-               title: 'Korus',
+               title: 'Antwork',
                description: 'Korus is a place where performance takes center stage. Right before your eyes, bright lights set the mood for the culinary delights that come to life. The design goes in harmony with the upscale vibe of a cigar-lounge.',
 
           }, {
                id: 5,
-               img: '/images/spine.png',
+               img: '/images/bart.png',
                tags: [
                     {
                          id: 1,
@@ -104,7 +108,7 @@ export default function MultiSlider() {
                     },
                ],
 
-               title: 'Korus',
+               title: 'Bar Tartine',
                description: 'Korus is a place where performance takes center stage. Right before your eyes, bright lights set the mood for the culinary delights that come to life. The design goes in harmony with the upscale vibe of a cigar-lounge.',
 
           }, {
@@ -129,30 +133,27 @@ export default function MultiSlider() {
                     },
                ],
 
-               title: 'Korus',
+               title: 'Korusla',
                description: 'Korus is a place where performance takes center stage. Right before your eyes, bright lights set the mood for the culinary delights that come to life. The design goes in harmony with the upscale vibe of a cigar-lounge.',
 
           },
           
      ];
-
+    
      const responsive = {
-          superLargeDesktop: {
-               // the naming can be any, depends on you.
-               breakpoint: { max: 4000, min: 3000 },
-               items: 5
-          },
           desktop: {
                breakpoint: { max: 3000, min: 1024 },
-               items: 3
+               items: 2.4,
+
           },
           tablet: {
                breakpoint: { max: 1024, min: 464 },
-               items: 2
+               items: 2,
           },
           mobile: {
                breakpoint: { max: 464, min: 0 },
-               items: 1
+               items: 1.4,
+
           }
      };
   return (
@@ -161,16 +162,16 @@ export default function MultiSlider() {
                  <Carousel
                       additionalTransfrom={0}
                       arrows={false}
-                      autoPlaySpeed={3000}
+                      autoPlaySpeed={6000}
                       centerMode={false}
                       className={styles.carousel}
-                      containerClass="carousel-container"
-                      customButtonGroup={<ButtonGroup />}
+                      containerClass=''
+                      customButtonGroup={<ButtonGroup title='Similar Projects' />}
                       dotListClass=""
                       draggable
                       focusOnSelect={false}
                       infinite={false}
-                      itemClass=""
+                      itemClass={styles.carouselItem}
                       keyBoardControl
                       minimumTouchDrag={80}
                       renderButtonGroupOutside
@@ -178,18 +179,30 @@ export default function MultiSlider() {
                       responsive={responsive}
                       showDots={false}
                       sliderClass=""
-                      slidesToSlide={1}
+                      partialVisible={false}
                  >
                       {data.map((item) => (
-                           <div className={styles.reviewCard} key={item.id}>
-                                {/* <Rating rating={item.review} /> */}
-                                {/* <Heading as="h3" sx={styles.title}> */}
+
+                           <NavLink href={`/work/project/${item.id}`} >
+                           <div className={styles.card1} key={item.id}>
+                         
+                                <img src={item.img} alt=""  width='100%' height='100%' />
+                                <div className={styles.tagsWarp}>
+                                {item.tags.map((tag) => (     
+                                 <span key={tag.id} className={styles.tagsName} >{tag.name}<span className={styles.tagsSaperator}>-</span> </span>
+                                ))}
+                                </div>
+                                <div className={styles.card1Title}>
                                      {item.title}
-                                {/* </Heading> */}
-                                {/* <Text sx={styles.description}> */}
-                                     {item.description}
-                                     {/* </Text> */}
+                                </div>
+                                <div className={styles.card1desc}>{item.description}</div>
+                                <div className={styles.readCta}>
+                                     Read More
+                                </div>
+                                
+                              
                            </div>
+                           </NavLink>
                       ))}
                  </Carousel>
             </div>

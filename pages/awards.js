@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import ClinetsCarousel from "../components/Clinets/ClinetsCarousel"
 
-export default function Clinets() {
+export default function Awards() {
      return (
           <div>
                <Head>
@@ -14,7 +13,7 @@ export default function Clinets() {
                     <div className='warper whitebg'>
                          <div className="container">
                               <div>
-                                   <ClinetsCarousel/>
+                                   Awards Page
                               </div>
                          </div>
                     </div>

@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Category from '../../../components/Work/Category/Category'
-export default function Home() {
+import CategoryDets from '../../../components/Work/Category/CategoryDets'
+
+export default function Category() {
      return (
           <div>
                <Head>
@@ -10,7 +11,7 @@ export default function Home() {
                     <link rel="icon" href="/favicon.ico" />
                </Head>
                <main>
-                    <Category/>
+                    <CategoryDets/>
                </main>
 
 

@@ -17,12 +17,12 @@
 .copyrights div{ margin-right: 5px;}
 .socialMedia{display: flex;justify-content: space-between;}
 .hideDash{margin: 0 8px;}
-
+.footerDec {width: 60%}
 @media screen and (max-width: 960px) {
 .hideDash {display:none}
 .footer {display: block; padding: 10px 0 ;}
 .col1 {width: 100%;}
-.footerDec{ width:60%}
+.footerDec{ width:80%}
 .contactphone{flex-direction: column;}
 .contactItem{align-items:  center;}
 .hide {visibility: unset;display: none;}

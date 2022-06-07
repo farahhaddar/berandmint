@@ -88,7 +88,7 @@
 .closeContainer {padding: 30px 0;}
 .closeContainer:hover {cursor: pointer;}
 .sideNav {display: flex;flex-direction: column;gap: 20px;font-weight: 900;font-size: 18px;}
-.mobileNav .greyText {opacity: 0.5;}
+.mobileNav .greyText {opacity: 0.5;text-transform:capitalize !important;}
 .socialMedia {display: flex;gap: 35px;margin-top: 40px;}
 .closeContainer span {cursor: pointer;}
 .navAddress {margin: 40px 0;}

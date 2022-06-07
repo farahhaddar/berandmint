@@ -2,7 +2,7 @@ import React from 'react';
 import styles from "../../styles/Slider.module.css";
 import { IoIosArrowForward, IoIosArrowBack } from 'react-icons/io';
 
-export default function ButtonGroup({ next, previous ,...rest}) {
+export default function ButtonGroup({ title,next, previous ,...rest}) {
 
      const { carouselState: { currentSlide,totalItems, slidesToShow  } } = rest;
 
@@ -10,7 +10,7 @@ export default function ButtonGroup({ next, previous ,...rest}) {
           <div className={styles.buttonGroupContainer}>
           
                <div className={styles.carouselTitle}>
-                    Similar Projects
+                    {title}
                </div>
 
                <div className={styles.buttonGroup}>
