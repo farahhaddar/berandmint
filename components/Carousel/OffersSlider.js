@@ -78,8 +78,8 @@ export default function OffersSlider() {
                       partialVisible={false}
                  >
                       {data.map((item) => (
-                         <NavLink href={`/work/project/${item.id}`} >
-                              <div className={styles.projectCard} key={item.id}>
+                           <NavLink href={`/work/project/${item.id}`} key={item.id} >
+                              <div className={styles.projectCard} >
                                    <img src={item.img} />
                                    <div className={styles.projectOverly}>
                                         <span className={styles.projectTitle}>{item.title}</span>
