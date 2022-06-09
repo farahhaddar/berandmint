@@ -10,7 +10,7 @@ const ClinetsMain = () => {
                <div className="container">
                     
                          <div className={styles.sectionTitle}>
-                              Our Clinets
+                              Our Clients
                          </div>
                          <div className={styles.secDescLight}>We're proud of helping the best companies deliver positive emotions to their customers. </div>
                          
