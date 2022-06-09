@@ -80,7 +80,7 @@
   .ceoTextTitle{font-size: 28px;}
  .ceoDets {font-size: 16px;display: block; min-height: unset;}
  .ceoDets p{ margin-bottom: 5%;}
- .sectionTitle {font-size: 28px;}
+ .sectionTitle {font-size: 28px; margin-bottom: 20px;}
  .formrow{ display: block;}
 
  .packagesCards{display: block;margin-top: 150px !important; }
@@ -117,6 +117,11 @@
 .Videowarp {height: 250px;}
 
 }
+@media only screen and (max-width: 500px) {
+.projectcta {padding: 10px 20px; font-size: 14px;white-space: nowrap;justify-content: center;text-align: center; width: 100%; margin-top: 20px;}
+.formInput button {width: 100%; text-align: center; }
+}
+
 
 
 /* video puls btn */

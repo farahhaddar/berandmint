@@ -84,11 +84,14 @@
 .projectsSection{ display: block;margin-bottom: 20px;}
 
 
-.projectcta {padding: 10px 20px; font-size: 14px;white-space: nowrap;}
+.projectcta {padding: 10px 20px; font-size: 14px;white-space: nowrap; width: 100%;}
  
 
 }
 
+@media only screen and (max-width: 500px) {
+.projectcta {padding: 10px 20px; font-size: 14px;white-space: nowrap;justify-content: center;text-align: center; width: 100%; margin-top: 20px;}
+}
 
 
 

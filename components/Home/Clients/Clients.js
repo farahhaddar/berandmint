@@ -34,7 +34,7 @@ const Clinets = () => {
 
                          
                          {/* btn */}
-                         <div className={styles.packagecta}>
+                         <div className={styles.projectcta}>
                               <NavLink href="/clients">
                                    View All Our Clients
                               </NavLink>
