@@ -17,37 +17,37 @@ const tabData = {
                     {
                          id: 11,
                          icon: '/images/icon1.svg',
-                         name: 'LANDSCAPE ASSESSMENT',
+                         name: 'Landscape Assessment',
                          description: 'We start out by surveying every aspect that impacts your brand, from within it to beyond it, allowing us to identify the needs and opportunities.',
                     },
                     {
                          id: 2,
                          icon: '/images/icon2.svg',
-                         name: 'BRAND STYLE',
+                         name: 'Brand Style',
                          description: 'With your brand personality identified, we get to work on pinpointing your brand’s essential visual attributes and tone of voice, to empower all your communications.',
                     },
                     {
                          id: 3,
                          icon: '/images/icon3.svg',
-                         name: 'BRAND CULTURE',
+                         name: 'Brand Culture',
                          description: 'Your brand culture goes deeper into your core beliefs and how these manifest themselves in the everyday actions of your employees. This also provides the basis for us to work on your environmental branding and social initiatives.',
                     },
                     {
                          id: 4,
                          icon: '/images/icon4.svg',
-                         name: 'BRAND DIFFERENTIATOR',
+                         name: 'Brand Differentiator',
                          description: 'What sets you apart from the crowd? This is what we determine, using our own series of brand-building tools to identify your brand’s personality, vision and drivers. Your brand differentiator then becomes your roadmap for the way your brand communicates and behaves from here on, both internally and externally.',
                     },
                     {
                          id: 5,
                          icon: '/images/icon5.svg',
-                         name: 'SOCIAL ROADMAP',
+                         name: 'Social Roadmap',
                          description: 'You know who you are but where are you heading? Your social roadmap is a strategic guide to the types of activities, collaborations, & content suited to your brand, & is an essential tool for PR, digital & social media specialists to work with.',
                     },
                     {
                          id: 6,
                          icon: '/images/icon6.svg',
-                         name: 'BRAND GUIDELINES',
+                         name: 'Brands Guidelines',
                          description: 'With the design and approval phase signed off, we move on to creating your brand guidelines, delivering a flexible framework of specifications to ensure brand consistency in everything you do.',
                     },
                    
@@ -58,17 +58,22 @@ const tabData = {
           {
                id: 12,
                name: 'express',
-               description: 'Mint Express recognizes that today, more than ever, start-ups are under pressure to be agile and up and running in no time. As our specially formulated fast-lane solution, Mint Express gives entrepreneurs the foundations they need to launch their businesses, regardless of how big they are or what stage they’re at, in the shortest space of time.',
+               description: 'Mint Express recognizes that today, more than ever,' ,
+               description1:'start-ups',
+               description3:'entrepreneurs',
+               description2: ' are under pressure to be agile and up and running in no time. As our specially formulated fast-lane solution, Mint Express gives',
+               description4: ' the foundations they need to launch their businesses, regardless of how big they are or what stage they’re at, in the shortest space of time.',
+
                offers: [
                     {
                          id: 7,
-                         icon: '/images/icon6.svg',
+                         icon: '/images/icon8.svg',
                          name: 'Fast & Efficient',
                          description: 'We start out by surveying every aspect that impacts your brand, from within it to beyond it, allowing us to identify the needs and opportunities.',
                     },
                     {
                          id: 8,
-                         icon: '/images/icon6.svg',
+                         icon: '/images/icon7.svg',
                          name: 'Fast & Efficient',
                          description: 'With your brand personality identified, we get to work on pinpointing your brand’s essential visual attributes and tone of voice, to empower all your communications.',
                     },
@@ -157,7 +162,13 @@ export default function Offering() {
                                      className={styles.tabcontent}
                                      key={`${item.id}+${index}`}
                                 > 
-                                     <p className={styles.tabDescription}>{item.description && item.description }</p>
+                                     <p className={styles.tabDescription}>{item.description && item.description }
+                                     {/* remove this part */}
+                                          {item.description1 && <b><span>{item.description1}</span></b> }
+                                          {item.description2 && <span >{item.description2}</span> }
+                                          {item.description3 && <b><span>{item.description3}</span></b> }
+                                          {item.description4 && <span >{item.description4}</span>}
+                                     </p>
 
                                      <div className={item.offers.length >= 3 ? styles.offerCards : styles.offerCardsTwo}>
                                      

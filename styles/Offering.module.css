@@ -1,5 +1,5 @@
-.offeringMain{font-size: 28px;color: #000;font-family: "Avenir Regular";width: 85%;margin-bottom: 20px;}
-.offeringmaintext{color:#00b180;font-weight: 900;}
+.offeringMain{font-size: 28px;color: #000;font-family: "Avenir Light"; font-weight: 300;width: 85%;margin-bottom: 20px;}
+.offeringmaintext{color:#00b180;font-weight: 900;font-family: "Avenir Heavy"}
 .offeringMain p { margin-bottom: 20px;}
 
 
@@ -12,10 +12,10 @@
 .btnborder{border: 3px solid #fff;border-radius:20px 20px 0px 0px; background-color: #fff;}
 .btnborderActive {border: 3px solid #00b180;border-radius: 20px 20px 0px 0px;background-color: #00b180;}
 
-.tabDescription{font-size: 28px;color: #000;font-family: "Avenir Regular"; margin-bottom: 60px; }
+.tabDescription{font-size: 28px;color: #000;font-family: "Avenir Light"; margin-bottom: 60px; font-weight: 400px; }
 .offerCards{display: grid;grid-template-columns: repeat(3, 1fr);gap:2em  2em;}
 .offerCardsTwo{ display: grid;grid-template-columns: repeat(2, 1fr);gap: 2em 2em;}
-.offerCardTitle{font-size: 22px;color: #00b180;font-family: "Avenir Regular";text-transform: uppercase;font-weight: 900;margin: 10px 0;}
+.offerCardTitle{font-size: 22px;color: #00b180;font-family: "Avenir Regular";text-transform: capitalize;font-weight: 900;margin: 10px 0;}
 .offerCardDescription{font-size:18px;color:#000;font-family: "Avenir Book";}
 
 /* back to home */
@@ -44,3 +44,6 @@
 .offerCards{grid-template-columns: repeat(1, 1fr)}
 .offerCardsTwo{ grid-template-columns: repeat(1, 1fr)}
 }
+
+/* remove */
+.tabDescription span{ margin-left: 8px;}

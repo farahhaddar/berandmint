@@ -1,7 +1,7 @@
 /* custom btns */
 .buttonGroupContainer{display: flex;justify-content: space-between;align-items: center; position: absolute; top:0;left:0;right:0}
 .carouselTitle{font-size: 48px;font-family: 'Avenir Black';}
-.clinets{font-size: 40px;font-family: 'Avenir Black'; color:#00b180}
+.clinets{font-size: 35px;font-family: 'Avenir Black'; color:#00b180}
 .buttonGroup {display: flex;}
 .buttonGroup button {height: 26px;display: flex;justify-content: center;align-items: center;width: 26px;border: 2px solid #00b180;font-size: 18px;cursor: pointer;border-radius: 6px;transition: all 0.25s; color: #fff;background-color: #00b180;}
 .buttonGroup button:first-child{ margin-right: 8px;}
@@ -31,22 +31,22 @@
 .projectCard:hover img,.projectCard:focus img{-ms-transform: scale(1.2);-moz-transform: scale(1.2);-webkit-transform: scale(1.2);-o-transform: scale(1.2);transform: scale(1.2);}
 .projectCard:hover .projectOverly,
 .projectCard:focus .projectOverly{display: block;}
-.projectOverly{height: 100%;width: 100%;position: absolute;top: 0;left: 0;background-color: #000000B2;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all .5s;display: none;}
+.projectOverly{height: 100%;width: 100%;position: absolute;top: 0;left: 0;background: #0000 linear-gradient(180deg, #0000 0%, #000000B2 100%) 0% 0% no-repeat padding-box;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all .5s;display: none;}
 .projectTitle{font-family: "Avenir Regular";color:#00b180;position: absolute;bottom:20px;left: 20px;font-size: 20px;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all .5s}
 
 
 /* clinetsCards */
 .clinetsCards {width: 100%;height: 60px;display: flex;justify-content: center; }
 .clinetsCards img {width: 100%;height: 100%;}
-.carouselWrapperClinets{position: relative;margin: 70px 0px; width: 100%;}
+.carouselWrapperClinets{position: relative;margin: 120px 0px; width: 100%;}
 
 
 
 @media only screen and (max-width: 960px) {
 .carouselTitle{font-size: 28px;}
 .clinets{font-size: 24px;}
-.carouselWrapper{position: relative;margin: 80px 0;}
-.carousel{padding-top: 80px;}
+.carouselWrapper{position: relative;margin: 80px 0 0px 0;}
+.carousel{padding-top: 100px;}
 .carouselExperince{padding-top: 100px;}
 .card1 img{height: 300px;}
 .projectCard {width: 100%; height: 320px; }

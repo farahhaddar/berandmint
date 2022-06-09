@@ -9,7 +9,7 @@
 .projectCard:hover img,.projectCard:focus img{-ms-transform: scale(1.2);-moz-transform: scale(1.2);-webkit-transform: scale(1.2);-o-transform: scale(1.2);transform: scale(1.2);}
 .projectCard:hover .projectOverly,
 .projectCard:focus .projectOverly{display: block;}
-.projectOverly{height: 100%;width: 100%;position: absolute;top: 0;left: 0;background-color: #000000B2;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all .5s;display: none;}
+.projectOverly{height: 100%;width: 100%;position: absolute;top: 0;left: 0;background: #0000 linear-gradient(180deg, #0000 0%, #000000B2 100%) 0% 0% no-repeat padding-box;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all .5s;display: none;}
 .projectTitle{font-family: "Avenir Regular";color:#00b180;position: absolute;bottom:20px;left: 20px;font-size: 20px;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all .5s}
 /* defult card */
 
@@ -47,7 +47,7 @@
 
 
 /* project Details page */
-.projectDetsTitle{text-transform: uppercase;font-size: 48px;font-family: 'Avenir Black';}
+.projectDetsTitle{text-transform: capitalize;font-size: 48px;font-family: 'Avenir Black';}
 .projectDetsDetails{font-family: "Avenir Regular";font-size: 18px;}
 .projectDetsCategories{display: flex;flex-wrap: wrap;gap: 0.5em 2em;margin-top: 30px;}
 .projectDetsCategories span{font-family: "Avenir Regular";font-weight: 900;font-size: 18px;color:#00b180}

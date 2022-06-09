@@ -8,14 +8,14 @@
 .logo{padding-bottom: 20px;}
 .contactItem{display: flex; margin-bottom: 10px ;}
 .icon{margin-right: 20px;}
-.contactphone{display: flex;font-size: 18px;}
+.contactphone{display: flex;font-size: 15px;}
 .textItem {transition: all 0.3s; margin-right: 10px;  }
 .textItem:hover{color:#00B180;}
 .colTitle{font-family:'Avenir Black' ;font-size: 16px;font-weight: 900;margin-bottom: 20px;}
 .socialMedia,.footerAddress{margin-top: 50px;}
 .copyrights{font-family: 'Avenir Book';color: white;font-size: 15px;border-top: 1px solid rgba(255, 255, 255, 0.778) ;padding-top:2%;margin-top: 5%; display: flex; justify-content: center;}
 .copyrights div{ margin-right: 5px;}
-.socialMedia{display: flex;justify-content: space-between;}
+.socialMedia{display: flex; gap: 15px;}
 .hideDash{margin: 0 8px;}
 .footerDec {width: 60%}
 @media screen and (max-width: 960px) {

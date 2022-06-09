@@ -10,7 +10,7 @@ const Packages = () => {
                <div className="container">
                     <div className={styles.contactSection}>
                          <div className={styles.sectionTitle}>
-                              OUR PACKAGES
+                              Our Packages
                          </div>
                          <div className={styles.sectionDesc}>
                               We offer 2 types of design packages -want to know more about our offering

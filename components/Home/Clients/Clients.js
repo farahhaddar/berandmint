@@ -9,7 +9,7 @@ const Clinets = () => {
                <div className="container">
                     <div className={styles.contactSection}>
                          <div className={styles.sectionTitle}>
-                              OUR CLIENTS
+                              Our Clinets
                          </div>
                          <div className={styles.secDescLight}>
                               Our variety of clients extends among different sectors:
@@ -20,7 +20,7 @@ const Clinets = () => {
 
                          <div className={styles.clinetsCards}>
                               <a href="https://www.abc.com.lb/" rel="noopener noreferrer" target='_blank'>
-                                   <img src="/images/logos1.svg" alt="Logo" /></a>
+                              <img src="/images/logos1.svg" alt="Logo" /></a>
                               <a href="https://www.abc.com.lb/" rel="noopener noreferrer" target='_blank'><img src="/images/logos2.svg" alt="Logo" /></a>
                               <a href="https://www.abc.com.lb/" rel="noopener noreferrer" target='_blank'><img src="/images/logos3.svg" alt="Logo" /></a>
                               <a href="https://www.abc.com.lb/" rel="noopener noreferrer" target='_blank'><img src="/images/logos4.png" alt="Logo" /></a>

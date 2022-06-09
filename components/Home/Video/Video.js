@@ -29,7 +29,7 @@ const Video = () => {
                <div className="container">
                     <div className={styles.VideoSection}>
                          <div className={styles.Videowarp}>
-                              <img src="/images/bart.png" alt="img"  width='100%' height='100%' />
+                              <img src="/images/videocover.jpeg" alt="img"  width='100%' height='100%' />
 
                               <a id="play-video" 
                                    onClick={handleClick}

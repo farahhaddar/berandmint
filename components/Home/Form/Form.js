@@ -13,8 +13,9 @@ const Form = () => {
                               Let's talk
                          </div>
                          <div className={styles.sectionDesc}>
-                              We'd love to hear from you! Drop us a line, Give us a call or pass by our office at Antwork.
+                              We'd love to hear from you! 
                          </div>
+                         <div className={styles.secDescLight}>Drop us a line, Give us a call or pass by our office at Antwork.</div>
 
                          {/* form */}
                          <form className={styles.formInput}>

@@ -29,19 +29,20 @@ const AwardsMain = () => {
                     cat: ' gold',
                }
           ]
-          },
-          {
-               id: 2,
-               img: '/images/awardsCat.png',
-               brands: [
-                    {
-                         id: 1,
-                         img: '/images/awardLogo.png',
-                         brandId: 'Brand Identity',
-                         cat: ' gold',
-                    }
-               ]
-          },
+          }
+          // ,
+          // {
+          //      id: 2,
+          //      img: '/images/awardsCat.png',
+          //      brands: [
+          //           {
+          //                id: 1,
+          //                img: '/images/awardLogo.png',
+          //                brandId: 'Brand Identity',
+          //                cat: ' gold',
+          //           }
+          //      ]
+          // },
 
      ];
 

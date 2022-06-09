@@ -11,6 +11,7 @@
 @font-face {
   font-family: "Avenir Book";
   src: url("/fonts/Avenir/Avenir Book/Avenir Book.ttf");
+  font-weight: 500px;
 }
 
 @font-face {
@@ -33,7 +34,7 @@
 main {min-height: 65vh !important;}
 p {line-height: 1.6;}
 html,
-body {padding: 0;margin: 0;font-family: "Avenir Heavy", sans-serif;position: relative;}
+body {padding: 0;margin: 0;font-family: "Avenir Regular", sans-serif;position: relative;}
 @media only screen and (min-width: 960px) {
   body {overflow: auto !important; }
 }
@@ -71,6 +72,11 @@ input:-webkit-autofill:active {transition: background-color 5000s ease-in-out 0s
 /* responsive */
 @media only screen and (max-width: 960px) {
   .warper,footer,nav {padding: 25px 30px;}
+    .blackWhitebg {
+      background: linear-gradient(to bottom, #000 75%, #fff 0%) !important
+    }
+}
+@media only screen and (max-width: 600px) {
     .blackWhitebg {
       background: linear-gradient(to bottom, #000 80%, #fff 0%) !important
     }

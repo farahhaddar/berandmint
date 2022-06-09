@@ -1,13 +1,15 @@
 .titleContainer{display: flex;align-items: center;}
 .sectionTitle{color: #000;font-size: 48px;font-weight: 900;font-family: "Avenir Regular";}
-.titleContainer img{width: 48px;height: 48px;margin-right: 20px;transition: 0.5s;animation: animate 2s linear infinite;}
-@keyframes animate {
+.titleContainer img{width: 48px;height: 48px;margin-right: 20px;transition: 0.5s;
+     /* animation: animate 2s linear infinite; */
+}
+/* @keyframes animate {
 0% {transform: scale(1);}
 25% {transform: scale(1.1);}
 50% {transform: scale(1);}
 75% {transform: scale(1.1);}
 100% {transform: scale(1.1);}
-}
+} */
 
 .awardsWarp{margin: 50px 0;display: flex; justify-content: space-between;}
 .awardsNameCol{width: 20%;}

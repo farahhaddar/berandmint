@@ -28,17 +28,12 @@ const Project = () => {
           <div className='warper whitebg '>
                <div className="container">
                     <h1 className={styles.projectDetsTitle}>
-                         SPINE BEIRUT
+                         spine beirut
                     </h1>
                     <div className={styles.projectDetsDetails}>
                          Spine is a rooftop lounge in Beirut, offering an unparalleled experience through their fusion cuisine and exotic cocktails, the executed branding reflects the structure of the space along with the culture.
                     </div>
                     <div className={styles.projectDetsCategories}>
-                         <span>Brand Strategy</span>
-                         <span>Naming</span>
-                         <span>Brand Identity</span>
-                         <span>Printed Collaterals</span>
-                         <span>Environmental Branding</span>
                          <span>Brand Strategy</span>
                          <span>Naming</span>
                          <span>Brand Identity</span>
@@ -66,9 +61,9 @@ const Project = () => {
                                    src={item.image}
                                    alt='image'
                                    className={item.class}
-                                   onClick={() => {
-                                        lightBoxHandler(true, index);
-                                   }}
+                                   // onClick={() => {
+                                   //      lightBoxHandler(true, index);
+                                   // }}
                               />
                          
                     ))}
