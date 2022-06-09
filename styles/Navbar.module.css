@@ -38,6 +38,9 @@
   .navLinks {
     display: none;
   }
+    .navbar {
+      text-transform: capitalize;
+    }
 }
 
 @media only screen and (min-width: 960px) {
