@@ -9,7 +9,7 @@ const Clinets = () => {
                <div className="container">
                     <div className={styles.contactSection}>
                          <div className={styles.sectionTitle}>
-                              Our Clinets
+                              Our Clients
                          </div>
                          <div className={styles.secDescLight}>
                               Our variety of clients extends among different sectors:
@@ -36,7 +36,7 @@ const Clinets = () => {
                          {/* btn */}
                          <div className={styles.packagecta}>
                               <NavLink href="/clients">
-                                   View All Our Clinets
+                                   View All Our Clients
                               </NavLink>
                          </div>
 
