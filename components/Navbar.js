@@ -54,8 +54,7 @@ const Navbar = () => {
           </div>
 
           {/* mobile nav */}
-          {showNav && (
-            <div className={styles.mobileNav}>
+          <div className={showNav ? `${styles.mobileNav} ${styles.mobileNavActive}` : styles.mobileNav }>
               <div className={styles.closeContainer}>
                 <Image
                   onClick={toggleNav}
@@ -168,7 +167,7 @@ const Navbar = () => {
               </div>
 
             </div>
-          )}
+          
         </div>
       </div>
     </nav>
