@@ -1,0 +1,55 @@
+.offeringMain{font-size: 28px;color: #000;font-family: "Avenir Light"; font-weight: 300;width: 85%;margin-bottom: 20px;}
+.offeringmaintext{color:#00b180;font-weight: 900;font-family: "Avenir Heavy"}
+.offeringMain p { margin-bottom: 20px;}
+
+
+.tabbtns {display: flex;justify-content: space-evenly;margin: 60px 0;border-bottom: 1px solid #00b180;}
+.tabbtnwarper {width: 30%; display: flex; flex-direction: column; justify-content: center;}
+.tabbtnwarper button {width: 100%;padding: 20px 0;outline: none;background-color: transparent;border: none;opacity: 0.2;transition: 0.3s;}
+.tabbtnwarper button img{width: 100% ; height: 35px; padding: 0 20px;}
+.tabbtnwarper button:hover {cursor: pointer;}
+.activeTab {opacity: 1 !important;}
+.btnborder{border: 3px solid #fff;border-radius:20px 20px 0px 0px; background-color: #fff;}
+.btnborderActive {border: 3px solid #00b180;border-radius: 20px 20px 0px 0px;background-color: #00b180;}
+
+.tabDescription{font-size: 28px;color: #000;font-family: "Avenir Light"; margin-bottom: 60px; font-weight: 400px; }
+.offerCards{display: grid;grid-template-columns: repeat(3, 1fr);gap:2em  2em;}
+.offerCardsTwo{ display: grid;grid-template-columns: repeat(2, 1fr);gap: 2em 2em;}
+.offerCardTitle{font-size: 22px;color: #00b180;font-family: "Avenir Regular";text-transform: capitalize;font-weight: 900;margin: 10px 0;}
+.offerCardDescription{font-size:18px;color:#000;font-family: "Avenir Book";}
+
+/* back to home */
+.projectcta {padding: 10px 35px;border: 2px solid #00b180;background-color: #00b180;border-radius: 10px;cursor: pointer;transition: 0.3s ease 0s;width: fit-content;font-size: 18px; margin: auto; color:#fff; margin-top: 5%;}
+.projectcta:hover {background-color: transparent;color:#00b180;transition: 0.3s ease 0s;}
+
+
+@media only screen and (max-width: 960px) {
+.offeringMain{font-size: 20px;width: 100%;}
+.offerCards{grid-template-columns: repeat(2, 1fr)}
+.offerCardsTwo{ grid-template-columns: repeat(2, 1fr)}
+.tabbtns {justify-content: space-between;gap: 1em;}
+.tabbtnwarper {width: 100%;}
+.offerCardTitle{font-size: 18px;}
+.offerCardDescription{font-size:14px;}
+.offerCardIcon img {width: 60px;}
+.tabDescription{font-size: 20px;}
+.tabbtnwarper button img{padding: 0;}
+.btnborder,.btnborderActive {border-width: 2px;}
+.projectcta {padding: 10px 20px; font-size: 14px;white-space: nowrap;}
+ 
+}
+
+
+@media only screen and (max-width: 500px) {
+.offerCards{grid-template-columns: repeat(1, 1fr)}
+.offerCardsTwo{ grid-template-columns: repeat(1, 1fr)}
+
+}
+
+@media only screen and (max-width: 500px) {
+.projectcta {padding: 10px 20px; font-size: 14px;white-space: nowrap;justify-content: center;text-align: center; width: 100%; margin-top: 20px;}
+}
+
+
+/* remove */
+.tabDescription span{ margin-left: 8px;}

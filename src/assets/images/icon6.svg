@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="49.144" height="64.659" viewBox="0 0 49.144 64.659">
+  <g id="ic_brand_guidelines" transform="translate(0 0.25)">
+    <g id="Artboard_6" data-name="Artboard 6" transform="translate(0 0)">
+      <g id="Group_911" data-name="Group 911" transform="translate(0 0)">
+        <g id="Group_905" data-name="Group 905" transform="translate(0 1.18)">
+          <g id="Path_2816" data-name="Path 2816">
+            <path id="Path_2936" data-name="Path 2936" d="M95.876,78.846l-6.182,6.229a3.6,3.6,0,0,1-2.54,1.044H51.673a3.605,3.605,0,0,1-3.6-3.595V31.534a3.564,3.564,0,0,1,.906-2.378l.332-.334.078-.07,5.856-5.861,1.642,5.036H87.151a3.616,3.616,0,0,1,3.595,3.608V75.841l3.446-1.7Z" transform="translate(-48.07 -22.89)" fill="#00b180"/>
+          </g>
+        </g>
+        <g id="Group_906" data-name="Group 906" transform="translate(5.584)">
+          <g id="Rectangle_347" data-name="Rectangle 347" transform="translate(0.318 0.318)">
+            <rect id="Rectangle_352" data-name="Rectangle 352" width="42.676" height="58.201" rx="3" fill="#fff"/>
+          </g>
+          <g id="Path_2817" data-name="Path 2817">
+            <path id="Path_2937" data-name="Path 2937" d="M108.854,77.213H73.376A3.929,3.929,0,0,1,69.46,73.3V22.286a3.932,3.932,0,0,1,3.916-3.916h35.478a3.932,3.932,0,0,1,3.916,3.916v51A3.929,3.929,0,0,1,108.854,77.213Zm-35.478-58.2A3.276,3.276,0,0,0,70.1,22.286v51a3.274,3.274,0,0,0,3.271,3.271h35.478a3.276,3.276,0,0,0,3.274-3.271v-51a3.279,3.279,0,0,0-3.274-3.274Z" transform="translate(-69.46 -18.37)" stroke="#000" stroke-width="0.5"/>
+          </g>
+        </g>
+      </g>
+      <path id="Path_2938" data-name="Path 2938" d="M128.509,77.025H105.1a.587.587,0,1,1,0-1.175h23.412a.587.587,0,0,1,0,1.175Z" transform="translate(-89.776 -60.844)"/>
+      <path id="Path_2939" data-name="Path 2939" d="M128.509,112.325H105.1a.587.587,0,1,1,0-1.175h23.412a.587.587,0,0,1,0,1.175Z" transform="translate(-89.776 -86.929)"/>
+      <path id="Path_2940" data-name="Path 2940" d="M128.509,147.675H105.1a.587.587,0,0,1,0-1.175h23.412a.587.587,0,0,1,0,1.175Z" transform="translate(-89.776 -113.05)"/>
+      <path id="Path_2941" data-name="Path 2941" d="M128.509,182.925H105.1a.587.587,0,1,1,0-1.175h23.412a.587.587,0,0,1,0,1.175Z" transform="translate(-89.776 -139.098)"/>
+    </g>
+  </g>
+</svg>

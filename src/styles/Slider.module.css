@@ -1,0 +1,57 @@
+/* custom btns */
+.buttonGroupContainer{display: flex;justify-content: space-between;align-items: center; position: absolute; top:0;left:0;right:0}
+.carouselTitle{font-size: 48px;font-family: 'Avenir Black';}
+.clinets{font-size: 35px;font-family: 'Avenir Black'; color:#00b180}
+.buttonGroup {display: flex;}
+.buttonGroup button {height: 26px;display: flex;justify-content: center;align-items: center;width: 26px;border: 2px solid #00b180;font-size: 18px;cursor: pointer;border-radius: 6px;transition: all 0.25s; color: #fff;background-color: #00b180;}
+.buttonGroup button:first-child{ margin-right: 8px;}
+.buttonGroup button:hover {color: #fff;background-color: #00b180;}
+.buttonGroup button:focus {outline: none;}
+.disable{background-color: #fff !important;color: #00b180 !important;pointer-events: none !important;}
+
+/* to check the gap between items check the global class .react-carousel css */
+
+/* project Details Carousel */
+.carouselWrapper{position: relative;margin: 90px 0px; width: 100%;}
+.carousel{padding-top: 120px; width: 100% !important;}
+.card1 img{height: 420px; object-fit: cover; object-position: center; }
+.tagsWarp{display: flex;gap:0.2em 0em;flex-wrap: wrap;color:#00b180;font-size: 12px;font-family: 'Avenir Regular';font-weight: 900;margin: 10px 0;}
+.tagsSaperator{margin: 0 4px;}
+.tagsName:last-child .tagsSaperator{display: none;}
+.card1Title{font-family: 'Avenir Black';font-weight: 900;font-size: 24px;margin: 12px 0;}
+.card1desc{font-family: 'Avenir Light';font-weight: 500;font-size: 15px;}
+.card1:hover  {cursor: pointer;}
+.readCta{color: #00b180; margin:  20px 0; visibility: hidden; transition: visibility 0.2s fade-in;font-size: 13px;font-family: 'Avenir Book';font-weight: 900; }
+.card1:hover .readCta {visibility: visible;}
+
+
+/* experinces slider */
+.projectCard {width: 100%; height: 353px;overflow: hidden;position: relative;cursor: pointer;}
+.projectCard img{ width: 100%;height: 100% !important;-webkit-transition: all .8s;-moz-transition: all .8s;-o-transition: all .8s;transition: all .8s;object-position: center;object-fit: cover;}
+.projectCard:hover img,.projectCard:focus img{-ms-transform: scale(1.2);-moz-transform: scale(1.2);-webkit-transform: scale(1.2);-o-transform: scale(1.2);transform: scale(1.2);}
+.projectCard:hover .projectOverly,
+.projectCard:focus .projectOverly{display: block;}
+.projectOverly{height: 100%;width: 100%;position: absolute;top: 0;left: 0;background: #0000 linear-gradient(180deg, #0000 0%, #000000B2 100%) 0% 0% no-repeat padding-box;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all .5s;display: none;}
+.projectTitle{font-family: "Avenir Regular";color:#00b180;position: absolute;bottom:20px;left: 20px;font-size: 20px;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all .5s}
+
+
+/* clinetsCards */
+.clinetsCards {width: 100%;height: 60px;display: flex;justify-content: center; }
+.clinetsCards img {width: 100%;height: 100%;}
+.carouselWrapperClinets{position: relative;margin: 120px 0px; width: 100%;}
+
+
+
+@media only screen and (max-width: 960px) {
+.carouselTitle{font-size: 28px;}
+.clinets{font-size: 24px;}
+.carouselWrapper{position: relative;margin: 80px 0 0px 0;}
+.carousel{padding-top: 100px;}
+.carouselExperince{padding-top: 100px;}
+.card1 img{height: 300px;}
+.projectCard {width: 100%; height: 320px; }
+}
+@media only screen and (max-width: 400px) {
+.carouselExperince{padding-top: 120px;}
+}
+

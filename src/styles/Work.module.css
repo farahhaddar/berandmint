@@ -1,0 +1,97 @@
+/* projects */
+.catDesc{font-size: 28px;color:#000;font-family: "Avenir Regular";width: 70%;margin-bottom: 20px;}
+.catName{color:#00b180;font-weight: 900;}
+
+/* defult card */
+.projectsSection{display: grid;grid-template-columns: repeat(3,2fr); gap: 1em 1em;margin-bottom: 20px;}
+.projectCard {width: 100%; height: 353px;overflow: hidden;position: relative;cursor: pointer;}
+.projectCard img{ width: 100%;height: 100% !important;-webkit-transition: all .8s;-moz-transition: all .8s;-o-transition: all .8s;transition: all .8s;object-position: center;object-fit: cover;}
+.projectCard:hover img,.projectCard:focus img{-ms-transform: scale(1.2);-moz-transform: scale(1.2);-webkit-transform: scale(1.2);-o-transform: scale(1.2);transform: scale(1.2);}
+.projectCard:hover .projectOverly,
+.projectCard:focus .projectOverly{display: block;}
+.projectOverly{height: 100%;width: 100%;position: absolute;top: 0;left: 0;background: #0000 linear-gradient(180deg, #0000 0%, #000000B2 100%) 0% 0% no-repeat padding-box;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all .5s;display: none;}
+.projectTitle{font-family: "Avenir Regular";color:#00b180;position: absolute;bottom:20px;left: 20px;font-size: 20px;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all .5s}
+/* defult card */
+
+/* env */
+.envrow1{display: grid;grid-template-columns: repeat(3, 2fr);gap: 1em 1em;margin-bottom: 20px;}
+.envrow2{display: grid;grid-template-columns: repeat(2, 2fr);gap: 1em 1em;margin-bottom: 20px;}
+.envrow3 {display: grid;grid-template-columns: repeat(3, 2fr);gap: 1em 1em;}
+.envrow2 .projectCard{ height: 553px;}
+/* env */
+
+/* fbSection */
+.fbrow1{display: grid;grid-template-columns: repeat(3, 2fr);gap: 1em 1em;margin-bottom: 20px;}
+.fbrow2{display: grid;grid-template-columns: repeat(2, 2fr);gap: 1em 1em;margin-bottom: 20px;}
+.fbrow3 {display: grid;grid-template-columns: repeat(2, 2fr);gap: 1em 1em;}
+.fbrow2 .projectCard{ height: 553px;}
+.fbrow3 .projectCard{ height: 700px;}
+/* fbsection */
+
+/* otehrSections */
+.otherrow1{display: grid;grid-template-columns: repeat(1, 2fr);gap: 1em 1em;margin-bottom: 20px;}
+.otherrow2 {display: grid;grid-template-columns: repeat(2, 2fr);gap: 1em 1em;}
+.otherrow2 .projectCard{ height: 700px;}
+.otherrow2 .projectCard{ height: 512px;}
+/* otehrSections */
+
+/* seeall arow */
+.seeAll{ color: #00b180;display: flex; justify-content: flex-end;margin-top: 15px; align-items: center; font-size: 15px;}
+.arrow{ margin-left: 5px; }
+.seeAllBack{color: #00b180;display: flex;justify-content: flex-start;margin-top: 15px;align-items: center;font-size: 15px; }
+.arrowBack {margin-right: 5px;}
+
+/* back to home */
+.projectcta {padding: 10px 35px;border: 2px solid #00b180;background-color: #00b180;border-radius: 10px;cursor: pointer;transition: 0.3s ease 0s;width: fit-content;font-size: 18px; margin: auto; color:#fff; margin-top: 5%;}
+.projectcta:hover {background-color: transparent;color:#00b180;transition: 0.3s ease 0s;}
+
+
+/* project Details page */
+.projectDetsTitle{text-transform: capitalize;font-size: 48px;font-family: 'Avenir Black';}
+.projectDetsDetails{font-family: "Avenir Regular";font-size: 18px;}
+.projectDetsCategories{display: flex;flex-wrap: wrap;gap: 0.5em 2em;margin-top: 30px;}
+.projectDetsCategories span{font-family: "Avenir Regular";font-weight: 900;font-size: 18px;color:#00b180}
+.projectDetsNav{margin-top: 35px;display: flex;gap: 0em 5em;font-size: 18px;}
+.projectDetsLink{border-bottom: 1px solid;}
+.projectDetsLink:hover {color:#00b180;border-color: #00b180}
+.projectDetslocation{font-family: "Avenir Regular";}
+.projectDetslocationContry{font-family: "Avenir Heavy";}
+
+
+@media only screen and (max-width: 960px) {
+.catDesc{font-size: 20px;width: 100%;}
+.projectsSection {grid-template-columns: repeat(2, 2fr);gap: 1em 1em;margin-bottom: 20px;}
+.envrow2 .projectCard{ height: 300px;}
+.projectCard {height: 300px;}
+.otherrow2 .projectCard{ height: 512px;}
+.fbrow2 .projectCard{ height: 512px;}
+.fbrow3 .projectCard{ height: 512px;}
+
+.projectDetsTitle{font-size: 28px; margin-bottom: 20px;}
+.projectDetsDetails{font-size: 15px;}
+.projectDetsCategories{gap: 0.5em 1em;}
+.projectDetsCategories span{font-size: 13px;}
+.projectDetsNav{gap: 15px;font-size: 14px; flex-direction: column; margin: 25px 0;}
+.projectDetsLink{ width: fit-content; order:2}
+.projectDetsLink:hover {color:#00b180;border-color: #00b180}
+.projectDetslocation{order: 1}
+}
+
+@media only screen and (max-width: 600px) {
+.envrow1,.envrow2,.envrow3,.otherrow1,.otherrow2,.fbrow1,.fbrow2,.fbrow3{ display: block;margin-bottom: 20px;}
+.envrow2 .projectCard,.projectCard,.otherrow1 .projectCard,
+.otherrow2 .projectCard,.fbrow3 .projectCard,.fbrow2 .projectCard {width: 100%; height: 330px; margin-bottom: 20px;}
+.projectsSection{ display: block;margin-bottom: 20px;}
+
+
+.projectcta {padding: 10px 20px; font-size: 14px;white-space: nowrap; width: 100%;}
+ 
+
+}
+
+@media only screen and (max-width: 500px) {
+.projectcta {padding: 10px 20px; font-size: 14px;white-space: nowrap;justify-content: center;text-align: center; width: 100%; margin-top: 20px;}
+}
+
+
+
