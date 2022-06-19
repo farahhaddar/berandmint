@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Slider from '../../../components/Carousel/Slider'
 import Project from '../../../components/Work/Projects/Project'
 
 
@@ -14,7 +12,6 @@ export default function ProjectDets() {
                </Head>
                <main>
                     <Project/>
-                   
                </main>
 
           </div>

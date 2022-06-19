@@ -1,10 +1,8 @@
 /* hero  */
-.heroSection{color:#fff;font-family: "Avenir Regular";font-size: 48px;font-weight: 200 !important;width:60%;}
+.heroSection h1{color:#fff;font-family: "Avenir Regular";font-size: 48px;font-weight: 200 !important;width:60%; line-height: 1.4}
 .colortxt{color:#00B180;font-weight: 900 !important;}
-.herocta {padding: 10px 35px;border: 2px solid #00b180;border-radius: 10px;cursor: pointer;transition: 0.3s ease 0s;width: fit-content;font-size: 18px;margin-top: 20px;}
+.herocta {padding: 10px 35px;border: 2px solid #00b180;border-radius: 10px;cursor: pointer;transition: 0.3s ease 0s;width: fit-content;font-size: 18px;margin-top: 20px;color: #fff;font-family: "Avenir Regular";}
 .herocta:hover {background-color: #00b180;transition: 0.3s ease 0s;}
-.heroSection p{line-height: 1.4 !important;}
-
 .sectionTitle{color: #00B180;font-size: 48px;font-weight: 900;font-family: "Avenir Regular";}
 .sectionDesc{font-size: 18px;font-weight: 600; }
 .secDescLight{font-family: 'Avenir Book';font-size: 18px;font-weight: 400;}
@@ -72,7 +70,7 @@
 
 
 @media only screen and (max-width: 960px) {
- .heroSection {font-size: 25px;width: 95%;}
+ .heroSection h1 {font-size: 25px;width: 95%;}
  .projectsSection{grid-template-columns: repeat(2,2fr); gap: 1em 1em;margin-bottom: 20px;}
   .ceoSection{ display: flex; justify-content: space-between; flex-direction: column; gap:unset }
   .ceoImage{ width: 100%;order:2; display: flex; justify-content: center; margin: 20px 0;}

@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import CategoryDets from '../../../components/Work/Category/CategoryDets'
 
 export default function Category() {

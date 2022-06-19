@@ -8,6 +8,8 @@ import { NavLink } from "../NavLink";
 
 
 export default function ProjectDetailsSlider() {
+     
+     const delay = 100;
 
      const data = [
           {
@@ -181,10 +183,10 @@ export default function ProjectDetailsSlider() {
                       sliderClass=""
                       partialVisible={false}
                  >
-                      {data.map((item) => (
+                      {data.map((item,i) => (
 
                            <NavLink key={item.id} href={`/work/project/${item.id}`} >
-                           <div className={styles.card1} >
+                                <div className={styles.card1} data-aos="fade-up" data-aos-delay={delay * i} >
                          
                                 <img src={item.img} alt=""  width='100%' height='100%' />
                                 <div className={styles.tagsWarp}>

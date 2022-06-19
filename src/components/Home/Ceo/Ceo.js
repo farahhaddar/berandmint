@@ -8,10 +8,10 @@ const Ceo = () => {
           <div className='warper greybg'>
                <div className="container">
                     <div className={styles.ceoSection}>
-                         <div className={styles.ceoImage}>
+                         <div className={styles.ceoImage} data-aos="fade-right" data-aos-delay="100">
                          <img src="/images/raya.png" alt="Ceo Image"  width='100%' height='100%'/>  
                          </div>
-                         <div className={styles.ceoText}>
+                         <div className={styles.ceoText} data-aos="fade-left" data-aos-delay="100">
                               <div className={styles.ceoTextTitle}>
                                    Raya Nawbar
                               </div>

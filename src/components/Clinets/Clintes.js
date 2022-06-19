@@ -9,15 +9,11 @@ const ClinetsMain = () => {
           <div className='warper whitebg'>
                <div className="container">
                     
-                         <div className={styles.sectionTitle}>
+                    <div className={styles.sectionTitle} data-aos="fade-down" >
                               Our Clients
                          </div>
-                         <div className={styles.secDescLight}>We're proud of helping the best companies deliver positive emotions to their customers. </div>
+                    <div data-aos="fade-up" data-aos-delay='100' className={styles.secDescLight}>We're proud of helping the best companies deliver positive emotions to their customers. </div>
                          
-
-                         
-                    
-
                     <ClinetsSlider title='Food & Beverage' />
                     <ClinetsSlider title='Hospitality & Real estate' />
                     <ClinetsSlider title='Finance' />

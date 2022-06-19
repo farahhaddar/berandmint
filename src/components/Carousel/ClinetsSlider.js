@@ -8,6 +8,8 @@ import { NavLink } from "../NavLink";
 
 
 export default function ClinetsSlider({title}) {
+     
+     const delay = 100;
 
      const data = [
           {
@@ -97,8 +99,8 @@ export default function ClinetsSlider({title}) {
                          sliderClass=""
                          partialVisible={false}
                     >
-                    {data.map((item) => (
-                         <div key={item.id} className={styles.clinetsCards}>
+                    {data.map((item, i ) => (
+                         <div key={item.id} className={styles.clinetsCards} data-aos="fade-up" data-aos-delay={delay * i}>
                               <a href={item.link} rel="noopener noreferrer" target='_blank'>
                                    <img src={item.img} alt="Logo" /></a>
                          </div>

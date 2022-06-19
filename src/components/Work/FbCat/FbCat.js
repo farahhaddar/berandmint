@@ -10,14 +10,14 @@ const FbCat = () => {
           <div className='warper whitebg sectionInpage'>
                <div className="container">
                     <div>
-                         <div className={styles.catDesc}>
+                         <div className={styles.catDesc} data-aos="fade-down">
                               We love <span className={styles.catName}>F&B</span>  and our passion is creating brands with a fresh attitude and a twist of mint.
                          </div>
 
                          <div className={styles.fbSection}>
 
                               <div className={styles.fbrow1}>
-                                   <NavLink href="/work/project/1">
+                                   <NavLink data-aos="zoom-in" data-aos-delay="100" href="/work/project/1">
                                         <div className={`${styles.projectCard} ${styles.div1}`} >
                                              <img src='/images/spine.png' />
                                              <div className={styles.projectOverly}>
@@ -26,7 +26,7 @@ const FbCat = () => {
                                         </div>
                                    </NavLink>
 
-                                   <NavLink href="/work/project/1">
+                                   <NavLink data-aos="zoom-in" data-aos-delay="100" href="/work/project/1">
                                         <div className={`${styles.projectCard} ${styles.div2}`} >
                                              <img src='/images/bart.png' />
                                              <div className={styles.projectOverly}>
@@ -34,7 +34,7 @@ const FbCat = () => {
                                              </div>
                                         </div>
                                    </NavLink>
-                                   <NavLink href="/work/project/1">
+                                   <NavLink data-aos="zoom-in" data-aos-delay="100" href="/work/project/1">
                                         <div className={`${styles.projectCard} ${styles.div3}`} >
                                              <img src='/images/kenz.png' />
                                              <div className={styles.projectOverly}>
@@ -44,7 +44,7 @@ const FbCat = () => {
                                    </NavLink>
                               </div>
                               <div className={styles.fbrow2}>
-                                   <NavLink href="/work/project/1">
+                                   <NavLink data-aos="zoom-in" data-aos-delay="100" href="/work/project/1">
                                         <div className={`${styles.projectCard} ${styles.div4}`} >
                                              <img src='/images/bart.png' />
                                              <div className={styles.projectOverly}>
@@ -52,7 +52,7 @@ const FbCat = () => {
                                              </div>
                                         </div>
                                    </NavLink>
-                                   <NavLink href="/work/project/1">
+                                   <NavLink data-aos="zoom-in" data-aos-delay="100" href="/work/project/1">
                                         <div className={`${styles.projectCard} ${styles.div5}`} >
                                              <img src='/images/spine.png' />
                                              <div className={styles.projectOverly}>
@@ -64,7 +64,7 @@ const FbCat = () => {
                               </div>
 
                               <div className={styles.fbrow3}>
-                                   <NavLink href="/work/project/1">
+                                   <NavLink data-aos="zoom-in" data-aos-delay="100" href="/work/project/1">
                                         <div className={`${styles.projectCard} ${styles.div1}`} >
                                              <img src='/images/spine.png' />
                                              <div className={styles.projectOverly}>
@@ -73,7 +73,7 @@ const FbCat = () => {
                                         </div>
                                    </NavLink>
 
-                                   <NavLink href="/work/project/1">
+                                   <NavLink data-aos="zoom-in" data-aos-delay="100" href="/work/project/1">
                                         <div className={`${styles.projectCard} ${styles.div2}`} >
                                              <img src='/images/fbsec.png' />
                                              <div className={styles.projectOverly}>
@@ -86,7 +86,7 @@ const FbCat = () => {
                          
                          {/* see all */}
                         <div>
-                              <NavLink className={styles.seeAll} href="/work/category/1">
+                              <NavLink data-aos="fade-left" data-aos-delay="100" className={styles.seeAll} href="/work/category/1">
                                    <span> Explore More</span>  <IoIosArrowForward className={styles.arrow}/>
                               </NavLink>
                          </div>

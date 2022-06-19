@@ -9,14 +9,15 @@ const CategoryDets = () => {
           <div className='warper whitebg'>
                <div className="container">
                     <div>
-                         <div className={styles.catDesc}>
+                         <div className={styles.catDesc} data-aos="fade-down">
                               We love <span className={styles.catName}> Environmental Design </span> match-making fresh textures & materials with every brand.
                          </div>
 
                          <div>
                               <div className={styles.projectsSection}>
-
-                                   <NavLink href="/work/project/1">
+                                   
+                              
+                                   <NavLink data-aos="zoom-in" data-aos-delay="100" href="/work/project/1" >
                                         <div className={styles.projectCard} >
                                              <img src='/images/spine.png' />
                                              <div className={styles.projectOverly}>
@@ -25,7 +26,7 @@ const CategoryDets = () => {
                                         </div>
                                    </NavLink>
                                    {/* others */}
-                                   <NavLink href="/work/project/11">
+                                   <NavLink data-aos="zoom-in" data-aos-delay="100" href="/work/project/11">
                                         <div className={styles.projectCard} >
                                              <img src='/images/bart.png' />
                                              <div className={styles.projectOverly}>
@@ -33,7 +34,7 @@ const CategoryDets = () => {
                                              </div>
                                         </div>
                                    </NavLink>
-                                   <NavLink href="/work/project/11">
+                                   <NavLink data-aos="zoom-in" data-aos-delay="100" href="/work/project/11">
                                         <div className={styles.projectCard} >
                                              <img src='/images/kenz.png' />
                                              <div className={styles.projectOverly}>
@@ -43,7 +44,7 @@ const CategoryDets = () => {
                                    </NavLink>
 
 
-                                   <NavLink href="/work/project/11">
+                                   <NavLink data-aos="zoom-in" data-aos-delay="100" href="/work/project/11">
                                         <div className={styles.projectCard} >
                                              <img src='/images/bart.png' />
                                              <div className={styles.projectOverly}>
@@ -51,7 +52,7 @@ const CategoryDets = () => {
                                              </div>
                                         </div>
                                    </NavLink>
-                                   <NavLink href="/work/project/11">
+                                   <NavLink data-aos="zoom-in" data-aos-delay="100" href="/work/project/11">
                                         <div className={styles.projectCard} >
                                              <img src='/images/spine.png' />
                                              <div className={styles.projectOverly}>
@@ -60,7 +61,7 @@ const CategoryDets = () => {
                                         </div>
                                    </NavLink>
 
-                                   <NavLink href="/work/project/11">
+                                   <NavLink data-aos="zoom-in" data-aos-delay="100" href="/work/project/11">
                                         <div className={styles.projectCard} >
                                              <img src='/images/kenz.png' />
                                              <div className={styles.projectOverly}>
@@ -69,7 +70,7 @@ const CategoryDets = () => {
                                         </div>
                                    </NavLink>
 
-                                   <NavLink href="/work/project/11">
+                                   <NavLink data-aos="zoom-in" data-aos-delay="100" href="/work/project/11">
                                         <div className={styles.projectCard} >
                                              <img src='/images/kenz.png' />
                                              <div className={styles.projectOverly}>
@@ -81,7 +82,7 @@ const CategoryDets = () => {
 
 
 
-                                   <NavLink href="/work/project/11">
+                                   <NavLink data-aos="zoom-in" data-aos-delay="100" href="/work/project/11">
                                         <div className={styles.projectCard} >
                                              <img src='/images/bart.png' />
                                              <div className={styles.projectOverly}>
@@ -89,7 +90,7 @@ const CategoryDets = () => {
                                              </div>
                                         </div>
                                    </NavLink>
-                                   <NavLink href="/work/project/11">
+                                   <NavLink data-aos="zoom-in" data-aos-delay="100" href="/work/project/11">
                                         <div className={styles.projectCard} >
                                              <img src='/images/spine.png' />
                                              <div className={styles.projectOverly}>
@@ -102,14 +103,14 @@ const CategoryDets = () => {
                               </div>
                          </div>
                          {/* btn */}
-                         <div className={styles.projectcta}>
-                              <NavLink href='/work/category/1' >
+                         <div data-aos="fade-up"  className={styles.projectcta}>
+                              <NavLink  href='/work/category/1' >
                                    Load More
                               </NavLink>
                          </div>
                          {/* back arrow */}
                          <div>
-                              <NavLink className={styles.seeAllBack} href="/work">
+                              <NavLink data-aos="fade-right" className={styles.seeAllBack} href="/work">
                                    <IoIosArrowBack className={styles.arrowBack} /><span> Back</span>  
                               </NavLink>
                          </div>

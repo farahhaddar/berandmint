@@ -11,7 +11,7 @@ const Hero = () => {
 
                     <div className={styles.projectsSection}>
 
-                         <NavLink href="/work/project/1">
+                              <NavLink href="/work/project/1" data-aos="zoom-in" data-aos-delay="100" >
                               <div className={styles.projectCard} >
                                    <img src='/images/spine.png' />
                                    <div className={styles.projectOverly}>
@@ -20,7 +20,7 @@ const Hero = () => {
                               </div>
                          </NavLink>
                          {/* others */}
-                         <NavLink href="/work/project/11">
+                              <NavLink href="/work/project/11" data-aos="zoom-in" data-aos-delay="100" >
                               <div className={styles.projectCard} >
                                    <img src='/images/bart.png' />
                                    <div className={styles.projectOverly}>
@@ -28,7 +28,7 @@ const Hero = () => {
                                    </div>
                               </div>
                          </NavLink>
-                         <NavLink href="/work/project/11">
+                              <NavLink href="/work/project/11" data-aos="zoom-in" data-aos-delay="100" >
                               <div className={styles.projectCard} >
                                    <img src='/images/kenz.png' />
                                    <div className={styles.projectOverly}>
@@ -38,7 +38,7 @@ const Hero = () => {
                          </NavLink>
                          
 
-                         <NavLink href="/work/project/11">
+                              <NavLink href="/work/project/11" data-aos="zoom-in" data-aos-delay="100" >
                               <div className={styles.projectCard} >
                                    <img src='/images/bart.png' />
                                    <div className={styles.projectOverly}>
@@ -46,7 +46,7 @@ const Hero = () => {
                                    </div>
                               </div>
                          </NavLink>
-                         <NavLink href="/work/project/11">
+                              <NavLink href="/work/project/11" data-aos="zoom-in" data-aos-delay="100" >
                               <div className={styles.projectCard} >
                                    <img src='/images/spine.png' />
                                    <div className={styles.projectOverly}>
@@ -55,7 +55,7 @@ const Hero = () => {
                               </div>
                          </NavLink>
 
-                         <NavLink href="/work/project/11">
+                              <NavLink href="/work/project/11" data-aos="zoom-in" data-aos-delay="100" >
                               <div className={styles.projectCard} >
                                    <img src='/images/kenz.png' />
                                    <div className={styles.projectOverly}>
@@ -64,7 +64,7 @@ const Hero = () => {
                               </div>
                          </NavLink>
 
-                         <NavLink href="/work/project/11">
+                              <NavLink href="/work/project/11" data-aos="zoom-in" data-aos-delay="100" >
                               <div className={styles.projectCard} >
                                    <img src='/images/kenz.png' />
                                    <div className={styles.projectOverly}>
@@ -77,7 +77,7 @@ const Hero = () => {
                         
 
 
-                         <NavLink href="/work/project/11">
+                              <NavLink href="/work/project/11" data-aos="zoom-in" data-aos-delay="100" >
                               <div className={styles.projectCard} >
                                    <img src='/images/bart.png' />
                                    <div className={styles.projectOverly}>
@@ -85,7 +85,7 @@ const Hero = () => {
                                    </div>
                               </div>
                          </NavLink>
-                         <NavLink href="/work/project/11">
+                              <NavLink href="/work/project/11" data-aos="zoom-in" data-aos-delay="100" >
                               <div className={styles.projectCard} >
                                    <img src='/images/spine.png' />
                                    <div className={styles.projectOverly}>
@@ -93,7 +93,7 @@ const Hero = () => {
                                    </div>
                               </div>
                          </NavLink>
-                              <NavLink href="/work/project/1">
+                              <NavLink href="/work/project/1" data-aos="zoom-in" data-aos-delay="100" >
                                    <div className={styles.projectCard} >
                                         <img src='/images/spine.png' />
                                         <div className={styles.projectOverly}>
@@ -102,7 +102,7 @@ const Hero = () => {
                                    </div>
                               </NavLink>
                              
-                              <NavLink href="/work/project/11">
+                              <NavLink href="/work/project/11" data-aos="zoom-in" data-aos-delay="100" >
                                    <div className={styles.projectCard} >
                                         <img src='/images/bart.png' />
                                         <div className={styles.projectOverly}>
@@ -110,7 +110,7 @@ const Hero = () => {
                                         </div>
                                    </div>
                               </NavLink>
-                              <NavLink href="/work/project/11">
+                              <NavLink href="/work/project/11" data-aos="zoom-in" data-aos-delay="100" >
                                    <div className={styles.projectCard} >
                                         <img src='/images/kenz.png' />
                                         <div className={styles.projectOverly}>
@@ -124,7 +124,7 @@ const Hero = () => {
                     </div>
                     </div>
                     {/* btn */}
-                    <div className={styles.projectcta}>
+                    <div data-aos="fade-up" className={styles.projectcta}>
                          <NavLink href="/work">
                               View More Projects
                          </NavLink>

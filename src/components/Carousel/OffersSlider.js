@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{ useState } from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import styles from "../../styles/Slider.module.css";
@@ -8,6 +8,8 @@ import { NavLink } from "../NavLink";
 
 
 export default function OffersSlider() {
+
+     const delay = 100;
 
      const data = [
           {
@@ -52,6 +54,9 @@ export default function OffersSlider() {
 
           }
      };
+
+
+
   return (
     <div>
             <div className={styles.carouselWrapper}>
@@ -77,15 +82,16 @@ export default function OffersSlider() {
                       sliderClass=""
                       partialVisible={false}
                  >
-                      {data.map((item) => (
-                           <NavLink href={`/work/project/${item.id}`} key={item.id} >
-                              <div className={styles.projectCard} >
+                    
+                      {data.map((item,i) => (
+                              <NavLink  href={`/work/project/${item.id}`} key={item.id} >
+                                <div className={styles.projectCard} data-aos="fade-up" data-aos-delay={delay*i}>
                                    <img src={item.img} />
                                    <div className={styles.projectOverly}>
                                         <span className={styles.projectTitle}>{item.title}</span>
                                    </div>
                               </div>
-                         </NavLink>       
+                         </NavLink>  
                       ))}
                  </Carousel>
             </div>

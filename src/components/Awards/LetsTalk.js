@@ -10,12 +10,12 @@ const LetsTalk = () => {
           <div className='warper greybg'>
                <div className="container">
 
-                    <div className={styles.talkTitle}>
+                    <div className={styles.talkTitle} data-aos="zoom-out" data-aos-delay='100'>
                          Need Help? Let's Talk!
                     </div>
 
                     {/* btn  Home form */}
-                    <div className={styles.projectcta}>
+                    <div data-aos="fade-up" data-aos-delay='100'  className={styles.projectcta}>
                          <NavLink href="/#contact">
                               Let's Talk
                          </NavLink>

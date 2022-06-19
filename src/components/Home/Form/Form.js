@@ -88,16 +88,17 @@ const Form = () => {
                <div className="container">
                     <a id="contact"></a>
                     <div className={styles.contactSection}>
-                         <div className={styles.sectionTitle}>
+                         <div className={styles.sectionTitle} data-aos="fade-down">
                               Let's talk
                          </div>
+                         <div data-aos="fade-up" data-aos-delay="200">
                          <div className={styles.sectionDesc}>
                               We'd love to hear from you! 
                          </div>
                          <div className={styles.secDescLight}>Drop us a line, Give us a call or pass by our office at Antwork.</div>
-
+                         </div>
                          {/* form */}
-                         <form id='contactForm' onSubmit={handleSubmit} className={styles.formInput}>
+                         <form id='contactForm' onSubmit={handleSubmit} className={styles.formInput} data-aos="zoom-in" data-aos-delay="400">
                               <div className={styles.formerror}>
                                   {error}
                               </div>

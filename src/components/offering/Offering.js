@@ -1,7 +1,6 @@
 import React,{useState} from 'react'
 import styles from "../../styles/Offering.module.css";
 import { NavLink } from "../NavLink";
-import Slider from '../Carousel/Slider'
 import { useRouter } from 'next/router'
 import  OffersSlider  from "../Carousel/OffersSlider"
 
@@ -121,13 +120,13 @@ export default function Offering() {
   return (
        <div className='warper whitebg'>
             <div className="container">
-                 <div className={styles.offeringMain}>
+                 <div className={styles.offeringMain} data-aos="fade-down" data-aos-delay="100">
                       <p>Forget all about outdated traditional brand guidelines, and meet your <span className={styles.offeringmaintext}>Brand Book</span>, containing your brand DNA & strategic roadmap.</p>
                       <p>The Brand Book is a User-friendly manual designed to aid brands as they navigate through today's competitive markets.</p>
                  </div>
                <a id="tabs"></a>
                  <div className={styles.tabsSection}>
-                      <div className={styles.tabbtns}>
+                      <div className={styles.tabbtns} data-aos="fade-up" data-aos-delay="200">
                               
                               <div className={styles.tabbtnwarper}>
                                    <button
@@ -162,7 +161,7 @@ export default function Offering() {
                                      className={styles.tabcontent}
                                      key={`${item.id}+${index}`}
                                 > 
-                                     <p className={styles.tabDescription}>{item.description && item.description }
+                                     <p className={styles.tabDescription} data-aos="fade-down" data-aos-delay="200">{item.description && item.description }
                                      {/* remove this part */}
                                           {item.description1 && <b><span>{item.description1}</span></b> }
                                           {item.description2 && <span >{item.description2}</span> }
@@ -173,7 +172,7 @@ export default function Offering() {
                                      <div className={item.offers.length >= 3 ? styles.offerCards : styles.offerCardsTwo}>
                                      
                                      {item.offers.map((card) => (
-                                          <div key={card.id} className={styles.offerCard}>
+                                          <div key={card.id} className={styles.offerCard} data-aos="zoom-in" data-aos-delay="200">
                                                <div className={styles.offerCardIcon}>
                                                     <img src={card.icon} alt={card.name} width='70px' height='65px' />
                                              </div>
@@ -190,7 +189,7 @@ export default function Offering() {
                       </div>
                  </div>
                  {/* btn back Home Form */}
-                 <div className={styles.projectcta}>
+                 <div data-aos="fade-up" data-aos-delay="100"  className={styles.projectcta}>
                       <NavLink href="/#contact">
                           Let's Talk
                       </NavLink>
@@ -198,25 +197,12 @@ export default function Offering() {
 
                  <OffersSlider />
 
-
-
-
-
-
-
-
-
                  {/* btn back Home */}
-                 <div className={styles.projectcta}>
+                 <div data-aos="fade-up" data-aos-delay="100" className={styles.projectcta}>
                       <NavLink href="/">
                           Back To Home
                       </NavLink>
                  </div>
-
-
-
-
-
             </div>
        </div>
   )

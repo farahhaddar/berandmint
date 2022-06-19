@@ -7,7 +7,7 @@ export default function ButtonGroup({ clinets,title,next, previous ,...rest}) {
      const { carouselState: { currentSlide,totalItems, slidesToShow  } } = rest;
 
      return (
-          <div className={styles.buttonGroupContainer}>
+          <div className={styles.buttonGroupContainer} data-aos="fade-down" data-aos-delay="100">
           
                <div className={clinets ? styles.clinets : styles.carouselTitle}>
                     {title}

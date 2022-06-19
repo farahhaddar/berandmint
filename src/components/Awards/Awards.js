@@ -49,7 +49,7 @@ const AwardsMain = () => {
      return (
           <div className='warper whitebg'>
                <div className="container">
-                         <div className={styles.titleContainer}>
+                    <div className={styles.titleContainer} data-aos="fade-down" data-aos-delay='100'>
                               <img src="/images/awards.svg" alt="tropy icon" width='100%' height='100%' />
                               <div className={styles.sectionTitle}>
                                    Our Awards
@@ -58,10 +58,10 @@ const AwardsMain = () => {
                          
                          {data.map((item) => (
                          <div className={styles.awardsWarp} key={item.id}>
-                              <div className={styles.awardsNameCol}>
+                                   <div className={styles.awardsNameCol} data-aos="fade-right" data-aos-delay='200'>
                               <img src={item.img} alt="Award Category Icon" width='100%' height='100%' />
                               </div>
-                              <div className={styles.awardsItemCol}>
+                                   <div className={styles.awardsItemCol} data-aos="fade-left" data-aos-delay='200'>
                               {item.brands.map((brand) => (
                                    <div key={brand.id} className={styles.awardsCard}>
                                     <div className={styles.cardIcon}>

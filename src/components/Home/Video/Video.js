@@ -28,7 +28,7 @@ const Video = () => {
           <div className='warper blackbg blackWhitebg'>
                <div className="container">
                     <div className={styles.VideoSection}>
-                         <div className={styles.Videowarp}>
+                         <div className={styles.Videowarp} data-aos="fade-left" data-aos-delay="100" >
                               <img src="/images/videocover.jpeg" alt="img"  width='100%' height='100%' />
 
                               <a id="play-video" 
@@ -38,7 +38,7 @@ const Video = () => {
                               </a>
                          </div>
 
-                         <div className={styles.VideoText}>
+                         <div className={styles.VideoText} data-aos="fade-right" data-aos-delay="100" >
                               <div className={styles.VideoTextTitle}>
                                    Our Culture
                               </div>

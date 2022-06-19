@@ -12,14 +12,14 @@ const EnvCat = () => {
           <div className='warper whitebg '>
                <div className="container">
                     <div>
-                         <div className={styles.catDesc}>
+                         <div className={styles.catDesc} data-aos="fade-down">
                               We love <span className={styles.catName}> Environmental Design </span> match-making fresh textures & materials with every brand.
                          </div>
 
                          <div className={styles.envSection}>
 
                               <div className={styles.envrow1}>
-                                   <NavLink href="/work/project/1">
+                                   <NavLink data-aos="zoom-in" data-aos-delay="100" href="/work/project/1">
                                         <div className={`${styles.projectCard} ${styles.div1}`} >
                                              <img src='/images/spine.png' />
                                              <div className={styles.projectOverly}>
@@ -28,7 +28,7 @@ const EnvCat = () => {
                                         </div>
                                    </NavLink>
 
-                                   <NavLink href="/work/project/1">
+                                   <NavLink data-aos="zoom-in" data-aos-delay="100" href="/work/project/1">
                                         <div className={`${styles.projectCard} ${styles.div2}`} >
                                              <img src='/images/bart.png' />
                                              <div className={styles.projectOverly}>
@@ -36,7 +36,7 @@ const EnvCat = () => {
                                              </div>
                                         </div>
                                    </NavLink>
-                                   <NavLink href="/work/project/1">
+                                   <NavLink data-aos="zoom-in" data-aos-delay="100" href="/work/project/1">
                                         <div className={`${styles.projectCard} ${styles.div3}`} >
                                              <img src='/images/kenz.png' />
                                              <div className={styles.projectOverly}>
@@ -46,7 +46,7 @@ const EnvCat = () => {
                                    </NavLink>
                               </div>
                               <div className={styles.envrow2}>
-                                   <NavLink href="/work/project/1">
+                                   <NavLink data-aos="zoom-in" data-aos-delay="100" href="/work/project/1">
                                         <div className={`${styles.projectCard} ${styles.div4}`} >
                                              <img src='/images/bart.png' />
                                              <div className={styles.projectOverly}>
@@ -54,7 +54,7 @@ const EnvCat = () => {
                                              </div>
                                         </div>
                                    </NavLink>
-                                   <NavLink href="/work/project/1">
+                                   <NavLink data-aos="zoom-in" data-aos-delay="100" href="/work/project/1">
                                         <div className={`${styles.projectCard} ${styles.div5}`} >
                                              <img src='/images/env.png' />
                                              <div className={styles.projectOverly}>
@@ -66,7 +66,7 @@ const EnvCat = () => {
                               </div>
 
                               <div className={styles.envrow3}>
-                                   <NavLink href="/work/project/1">
+                                   <NavLink data-aos="zoom-in" data-aos-delay="100" href="/work/project/1">
                                         <div className={`${styles.projectCard} ${styles.div1}`} >
                                              <img src='/images/spine.png' />
                                              <div className={styles.projectOverly}>
@@ -75,7 +75,7 @@ const EnvCat = () => {
                                         </div>
                                    </NavLink>
 
-                                   <NavLink href="/work/project/1">
+                                   <NavLink data-aos="zoom-in" data-aos-delay="100" href="/work/project/1">
                                         <div className={`${styles.projectCard} ${styles.div2}`} >
                                              <img src='/images/bart.png' />
                                              <div className={styles.projectOverly}>
@@ -83,7 +83,7 @@ const EnvCat = () => {
                                              </div>
                                         </div>
                                    </NavLink>
-                                   <NavLink href="/work/project/1">
+                                   <NavLink data-aos="zoom-in" data-aos-delay="100" href="/work/project/1">
                                         <div className={`${styles.projectCard} ${styles.div3}`} >
                                              <img src='/images/kenz.png' />
                                              <div className={styles.projectOverly}>
@@ -96,7 +96,7 @@ const EnvCat = () => {
                          {/* see all */}
                
                          <div>
-                              <NavLink className={styles.seeAll} href="/work/category/1">
+                              <NavLink data-aos="fade-left" data-aos-delay="100" className={styles.seeAll} href="/work/category/1">
                                    <span> Explore More</span>  <IoIosArrowForward className={styles.arrow} />
                               </NavLink>
                          </div>

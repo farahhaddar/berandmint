@@ -9,16 +9,16 @@ const Packages = () => {
           <div className='warper whitebg'>
                <div className="container">
                     <div className={styles.contactSection}>
-                         <div className={styles.sectionTitle}>
+                         <div className={styles.sectionTitle} data-aos="fade-up">
                               Our Packages
                          </div>
-                         <div className={styles.sectionDesc}>
+                         <div className={styles.sectionDesc} data-aos="fade-up" data-aos-delay="200">
                               We offer 2 types of design packages -want to know more about our offering
                          </div>
 
                          <div className={styles.packagesCards}>
 
-                              <div className={styles.packageCard}>
+                              <div className={styles.packageCard} data-aos="fade-right" data-aos-delay="300">
                                    <div className={styles.packageCardIconWarper}>
                                         <img className={styles.packageCardIcon} src="/images/experience.svg" alt="Package Icon" />
                                    </div>
@@ -37,7 +37,7 @@ const Packages = () => {
                                         </div>
                                    </div>
                               </div>
-                              <div className={styles.packageCard}>
+                              <div className={styles.packageCard} data-aos="fade-left" data-aos-delay="300">
 
                                    <div className={styles.packageCardIconWarper}>
                                         <img className={styles.packageCardIcon} src="/images/express.svg" alt="Package Icon" />
