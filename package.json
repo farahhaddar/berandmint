@@ -13,6 +13,8 @@
     "@fortawesome/fontawesome-free-solid": "^5.0.13",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.1.18",
+    "animate.css": "^4.1.1",
+    "axios": "^0.27.2",
     "next": "12.1.6",
     "react": "^16.3.0",
     "react-dom": "16.13.0",
@@ -22,7 +24,9 @@
     "react-modal-video": "^1.2.6",
     "react-multi-carousel": "^2.8.0",
     "react-slick": "^0.29.0",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "sweetalert2": "^11.4.17",
+    "sweetalert2-react-content": "^5.0.0"
   },
   "devDependencies": {
     "eslint": "8.16.0",

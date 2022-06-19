@@ -1,0 +1,16 @@
+<svg id="Component_92_2" data-name="Component 92 – 2" xmlns="http://www.w3.org/2000/svg" width="66.152" height="67.466" viewBox="0 0 66.152 67.466">
+  <g id="Group_12700" data-name="Group 12700" transform="translate(0 0)">
+    <path id="Path_12042" data-name="Path 12042" d="M-10807.248-5112.21l-7.713-7.713v13.718Z" transform="translate(10873.4 5132.782)" fill="#509582"/>
+    <g id="Group_12699" data-name="Group 12699" transform="translate(0 0)">
+      <path id="Path_12043" data-name="Path 12043" d="M-10814.959-5112.21l7.713-7.713v13.718Z" transform="translate(10814.959 5132.782)" fill="#509582"/>
+      <path id="Path_12044" data-name="Path 12044" d="M5,0H46.881a5,5,0,0,1,5,5V46.881a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z" transform="translate(6.534)" fill="#fff"/>
+      <path id="Intersection_1" data-name="Intersection 1" d="M2.648,27.1,0,24.449,25.712,0h14.73L66.153,24.449,63.5,27.1Z" transform="translate(0 40.37)" fill="#00805c" opacity="0.998"/>
+      <path id="Path_12040" data-name="Path 12040" d="M-11192.2-5063.591v-44.29l25.72,19.8Z" transform="translate(11192.201 5128.453)" fill="#00b180"/>
+      <path id="Path_12041" data-name="Path 12041" d="M-11171.206-5063.591v-44.29l-25.71,19.81Z" transform="translate(11237.357 5128.453)" fill="#00b180"/>
+      <g id="Group_12698" data-name="Group 12698" transform="translate(25.109 13.496)">
+        <path id="Path_12037" data-name="Path 12037" d="M-10444.531-5100.932a1.289,1.289,0,0,1-.914-.378l-4.307-4.307a1.293,1.293,0,0,1,0-1.828,1.293,1.293,0,0,1,1.829,0l3.392,3.392,7.91-7.91a1.294,1.294,0,0,1,1.829,0,1.293,1.293,0,0,1,0,1.828l-8.825,8.825A1.287,1.287,0,0,1-10444.531-5100.932Z" transform="translate(10450.131 5113.376)" fill="#00b180"/>
+        <path id="Path_12037-2" data-name="Path 12037" d="M-10444.531-5100.932a1.289,1.289,0,0,1-.914-.378l-4.307-4.307a1.293,1.293,0,0,1,0-1.828,1.293,1.293,0,0,1,1.829,0l3.392,3.392,7.91-7.91a1.294,1.294,0,0,1,1.829,0,1.293,1.293,0,0,1,0,1.828l-8.825,8.825A1.287,1.287,0,0,1-10444.531-5100.932Z" transform="translate(10450.131 5112.342)" fill="#fff" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
