@@ -31,7 +31,7 @@
 .col2link{padding-top: 20px;}
 .colTitle {margin-bottom: 10px;}
 .copyrights {flex-direction: column; justify-content: center; align-items: center;}
-.socialMedia {width: 200px;display: flex;justify-content: space-between;}
+.socialMedia {width: 120px;display: flex;justify-content: space-between;}
 }
 
 @media screen and (max-width: 460px) {.col2{ width:80%}}
